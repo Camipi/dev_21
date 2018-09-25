@@ -31,7 +31,10 @@ if ( version_compare( $GLOBALS['wp_version'], $theme_options['wp_min_version'], 
 
 //enqueues our external font awesome stylesheet
 function enqueue_our_required_stylesheets(){
+
 	wp_enqueue_style('font-awesome', '//use.fontawesome.com/releases/v5.3.1/css/all.css'); 
+
 }
+
 add_action('wp_enqueue_scripts','enqueue_our_required_stylesheets');
 

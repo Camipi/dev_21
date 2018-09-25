@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 	<!-- Hero -->
-	<section class="hero">
+	<section class="hero-fp">
 		<div class="row country">
 				<div class="col-md-8"></div>
 				<div class="col-md-4">
@@ -35,19 +35,19 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-					<img class="img-fluid" src="<?php echo get_bloginfo('template_url') ?>/images/icon1.svg" alt="icono de servicio">
+					<img class="img-fluid" src="<?php echo get_bloginfo('template_url') ?>/assets/images/icon1.svg" alt="icono de servicio">
 					<h4>SERVICIO</h4>
 					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
 				</div>
 				
 				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-					<img class="img-fluid" src="<?php echo get_bloginfo('template_url') ?>/images/icon2.svg" alt="icono de servicio">
+					<img class="img-fluid" src="<?php echo get_bloginfo('template_url') ?>/assets/images/icon2.svg" alt="icono de servicio">
 					<h4>SERVICIO</h4>
 					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
 				</div>
 				
 				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-					<img class="img-fluid" src="<?php echo get_bloginfo('template_url') ?>/images/icon3.svg" alt="icono de servicio">
+					<img class="img-fluid" src="<?php echo get_bloginfo('template_url') ?>/assets/images/icon3.svg" alt="icono de servicio">
 					<h4>SERVICIO</h4>
 					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
 				</div>
@@ -55,19 +55,19 @@
 			<hr/>
 			<div class="row">
 				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-					<img class="img-fluid" src="<?php echo get_bloginfo('template_url') ?>/images/icon1.svg" alt="icono de servicio">
+					<img class="img-fluid" src="<?php echo get_bloginfo('template_url') ?>/assets/images/icon1.svg" alt="icono de servicio">
 					<h4>SERVICIO</h4>
 					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
 				</div>
 
 				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-					<img class="img-fluid" src="<?php echo get_bloginfo('template_url') ?>/images/icon2.svg" alt="icono de servicio">
+					<img class="img-fluid" src="<?php echo get_bloginfo('template_url') ?>/assets/images/icon2.svg" alt="icono de servicio">
 					<h4>SERVICIO</h4>
 					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
 				</div>
 
 				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-					<img class="img-fluid" src="<?php echo get_bloginfo('template_url') ?>/images/icon3.svg" alt="icono de servicio">
+					<img class="img-fluid" src="<?php echo get_bloginfo('template_url') ?>/assets/images/icon3.svg" alt="icono de servicio">
 					<h4>SERVICIO</h4>
 					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
 				</div>
@@ -82,15 +82,15 @@
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
-					<img class="img-fluid" src="<?php echo get_bloginfo('template_url') ?>/images/banner.svg" alt="placeholder de imagen">
-					<img class="img-fluid" src="<?php echo get_bloginfo('template_url') ?>/images/banner.svg" alt="placeholder de imagen">
+					<img class="img-fluid" src="<?php echo get_bloginfo('template_url') ?>/assets/images/banner.svg" alt="placeholder de imagen">
+					<img class="img-fluid" src="<?php echo get_bloginfo('template_url') ?>/assets/images/banner.svg" alt="placeholder de imagen">
 				</div>
 				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-					<img class="img-fluid" src="<?php echo get_bloginfo('template_url') ?>/images/banner.svg" alt="placeholder de imagen">
+					<img class="img-fluid" src="<?php echo get_bloginfo('template_url') ?>/assets/images/banner.svg" alt="placeholder de imagen">
 				</div>
 				<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
-					<img class="img-fluid" src="<?php echo get_bloginfo('template_url') ?>/images/banner.svg" alt="placeholder de imagen">
-					<img class="img-fluid" src="<?php echo get_bloginfo('template_url') ?>/images/banner.svg" alt="placeholder de imagen">
+					<img class="img-fluid" src="<?php echo get_bloginfo('template_url') ?>/assets/images/banner.svg" alt="placeholder de imagen">
+					<img class="img-fluid" src="<?php echo get_bloginfo('template_url') ?>/assets/images/banner.svg" alt="placeholder de imagen">
 				</div>
 			</div>
 		</div>
@@ -151,6 +151,33 @@
 			</div>
 		</div>
 	</div>
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-126194309-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-126194309-1');
+</script>
+
+<script>
+// Initialize and add the map
+function initMap() {
+  // The location of Uluru
+  var uluru = {lat: -25.344, lng: 131.036};
+  // The map, centered at Uluru
+  var map = new google.maps.Map(
+      document.getElementById('map'), {zoom: 8, center: uluru});
+  // The marker, positioned at Uluru
+  var marker = new google.maps.Marker({position: uluru, map: map});
+}
+    </script>
+
+<script async defer
+	src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAjTN60PgDd9LSb52tnfvw7A9XVpvBNaDI&callback=initMap">
+</script>
 
 
 

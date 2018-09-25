@@ -1,7 +1,7 @@
 /* Hero*/
 
-.hero {
-	background-image: url('/images/banner.svg');
+.hero-fp {
+	background-image: url('/assets/images/banner.svg');
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -9,25 +9,25 @@
 	height: 100vh;
 }
 
-.hero h1 {
+.hero-fp h1 {
 	margin-left: 26vh;
 	font-size: 4rem;
 }
 
-.hero h2 {
+.hero-fp h2 {
 	margin-left: 95vh;
 	padding-top: 5vh;
 	text-align: left;
 }
 
-.hero p {
+.hero-fp p {
 	text-align: center;
 	font-size: 1.8rem;
 	margin-top: 25vh;
 	color: #2B4690;
 }
 
-.hero i {
+.hero-fp i {
 	color: #1CB5DA;
 }
 
