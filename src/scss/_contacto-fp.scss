@@ -1,0 +1,59 @@
+/* Contacto*/
+
+#map {
+    width: 100%;
+    height: 300px;
+    background-color: grey;
+    margin-bottom: 8vh;
+}
+
+.cont-sub {
+	text-align: center;
+	margin-bottom: 10vh;
+}
+
+.contacto iframe {
+	margin-bottom: 8vh;
+}
+
+.cont-mail i {
+	color: #2B4690;
+}
+
+.cont-dir i {
+	color: #2B4690;
+	margin-bottom: 3vh;
+}
+
+.cont-telf i {
+	color: #2B4690;
+}
+
+.cont-dir {
+	text-align: center;
+	margin-bottom: 10vh;
+}
+
+.cont-telf {
+	text-align: right;
+}
+
+.cont-dir select {
+	width: 100%;
+}
+
+.contacto h4 {
+	color: #14264D;	
+}
+
+.contacto button {
+	width: 100%;
+	background-color: #2B4690;
+	border: none;
+}
+
+#cotizacion {
+	background-color: #F7F7F7;
+	padding-top: 10vh;
+	padding-bottom: 10vh;
+}

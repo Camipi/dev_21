@@ -35,19 +35,19 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-					<img class="img-fluid" src="img/icon1.svg" alt="icono de servicio">
+					<img class="img-fluid" src="<?php echo get_bloginfo('template_url') ?>/images/icon1.svg" alt="icono de servicio">
 					<h4>SERVICIO</h4>
 					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
 				</div>
 				
 				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-					<img class="img-fluid" src="img/icon2.svg" alt="icono de servicio">
+					<img class="img-fluid" src="<?php echo get_bloginfo('template_url') ?>/images/icon2.svg" alt="icono de servicio">
 					<h4>SERVICIO</h4>
 					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
 				</div>
 				
 				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-					<img class="img-fluid" src="img/icon3.svg" alt="icono de servicio">
+					<img class="img-fluid" src="<?php echo get_bloginfo('template_url') ?>/images/icon3.svg" alt="icono de servicio">
 					<h4>SERVICIO</h4>
 					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
 				</div>
@@ -55,19 +55,19 @@
 			<hr/>
 			<div class="row">
 				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-					<img class="img-fluid" src="img/icon1.svg" alt="icono de servicio">
+					<img class="img-fluid" src="<?php echo get_bloginfo('template_url') ?>/images/icon1.svg" alt="icono de servicio">
 					<h4>SERVICIO</h4>
 					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
 				</div>
 
 				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-					<img class="img-fluid" src="img/icon2.svg" alt="icono de servicio">
+					<img class="img-fluid" src="<?php echo get_bloginfo('template_url') ?>/images/icon2.svg" alt="icono de servicio">
 					<h4>SERVICIO</h4>
 					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
 				</div>
 
 				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-					<img class="img-fluid" src="img/icon3.svg" alt="icono de servicio">
+					<img class="img-fluid" src="<?php echo get_bloginfo('template_url') ?>/images/icon3.svg" alt="icono de servicio">
 					<h4>SERVICIO</h4>
 					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
 				</div>
@@ -82,15 +82,15 @@
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
-					<img src="img/banner.svg" class="img-fluid" alt="">
-					<img src="img/banner.svg" class="img-fluid" alt="">
+					<img class="img-fluid" src="<?php echo get_bloginfo('template_url') ?>/images/banner.svg" alt="placeholder de imagen">
+					<img class="img-fluid" src="<?php echo get_bloginfo('template_url') ?>/images/banner.svg" alt="placeholder de imagen">
 				</div>
 				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-					<img src="img/banner.svg" class="img-fluid" alt="">
+					<img class="img-fluid" src="<?php echo get_bloginfo('template_url') ?>/images/banner.svg" alt="placeholder de imagen">
 				</div>
 				<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
-					<img src="img/banner.svg" class="img-fluid" alt="">
-					<img src="img/banner.svg" class="img-fluid" alt="">
+					<img class="img-fluid" src="<?php echo get_bloginfo('template_url') ?>/images/banner.svg" alt="placeholder de imagen">
+					<img class="img-fluid" src="<?php echo get_bloginfo('template_url') ?>/images/banner.svg" alt="placeholder de imagen">
 				</div>
 			</div>
 		</div>

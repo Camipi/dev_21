@@ -1,5 +1,16 @@
 /* Main Style */
 
+@import "body";
+@import "navbar";
+@import "hero-fp";
+@import "dev21-fp";
+@import "servicios-fp";
+@import "portafolio-fp";
+@import "contacto-fp";
+@import "footer";
+@import "media_queries-fp";
+
+
 @import "lib/variables.scss";
 @import "lib/mixins.scss";
 

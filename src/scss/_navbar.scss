@@ -1,0 +1,31 @@
+/* Barra de navegacion*/
+
+.navbar {
+	background-color: #fff;
+	-webkit-box-shadow: 0px 12px 5px -12px rgba(181,181,181,1);
+	-moz-box-shadow: 0px 12px 5px -12px rgba(181,181,181,1);
+	box-shadow: 0px 12px 5px -12px rgba(181,181,181,1);
+}
+
+.navbar ul li a {
+	color: #2B4690;
+}
+
+header .nav a i {
+	color: #14264D;
+	font-size: 1.8rem;
+}
+
+.redes li a{
+	padding-left: .1vh;
+	padding-right: .8vh;
+}
+
+.navbar-toggler {
+	border: 1px solid #14264D;
+}
+
+.navbar button span {
+	color: #14264D;
+    margin-top: 10px;
+}
