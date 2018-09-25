@@ -10,7 +10,7 @@
 			<div class="row">
 				<div class="col-md-4"></div>
 				<div class="col-md-4 justify-content-center">
-					<img src="img/robot-head.svg" alt="">
+					<img src="<?php echo get_bloginfo('template_url') ?>/images/robot-head.svg" alt="logo dev21">
 				</div>
 				<div class="col-md-4"></div>
 			</div>

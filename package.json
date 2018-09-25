@@ -9,6 +9,7 @@
     "popper.js": "^1.14.4"
   },
   "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.3.1",
     "cross-env": "^5.2.0",
     "laravel-mix": "^2.1.11"
   },

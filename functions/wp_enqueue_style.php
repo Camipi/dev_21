@@ -19,6 +19,7 @@ function dl_enqueue_style() {
 
 	/* Register Scripts */
 	wp_register_style( 'bootstrap', get_theme_file_uri( '/node_modules/bootstrap/scss/bootstrap'), null, $theme_data->get( '4.1' ), 'screen' );
+	wp_register_style( 'fontawesomne', get_theme_file_uri( '/node_modules/@fortawesome/fontawesome-free/scss/fontawesome'), null, $theme_data->get( '5.3.1' ), 'screen' );
 	wp_register_style( 'reset', get_theme_file_uri( '/assets/css/reset.css'), null, $theme_data->get( 'Version' ), 'screen' );
 	wp_register_style( 'flexslider', get_theme_file_uri( '/assets/css/flexslider.css'), null, '2.7.1', 'screen' );
 	wp_register_style( 'flickity', get_theme_file_uri( '/assets/css/flickity.css'), null, '2.1.0', 'screen' );
