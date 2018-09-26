@@ -107,6 +107,25 @@ jQuery(document).ready(function ($) {
 			$("#country").html(text);
 		});
 	});
+
+	/*var options = {
+     duration: 200,
+     easing: 'linear',
+     padding: 0,
+     align: 'top',
+     onFinish: function () {}
+ };*/
+
+	new AnimateScroll('#dev21', options);
+
+	/*$( ".circulo" ).click(function() {
+ 	$('#dev21').animatescroll({
+ 		duration: 2500,
+ 		easing: 'easeInOutQuint',
+ 		padding: 10,
+ 		align: top,
+ 		onFinish: 'onFinish'});
+ });*/
 });
 
 /***/ }),

@@ -13,7 +13,7 @@
 				<div class="col-md-12">
 					<h1><strong>Bienvenido a<br> Dev_21</strong></h1>
 					<h2>Lorem Ipsum is simply<br> dummy text of the<br> printing.</h2>
-					<p><a href="#dev21"><i class="far fa-arrow-alt-circle-down"></i></a></p>
+					<p><a href="#dev21" class="circulo"><i class="far fa-arrow-alt-circle-down"></i></a></p>
 				</div>
 			</div>
 		</div>
@@ -29,7 +29,7 @@
 	</div>
 
 	<!-- Servicios -->
-	<div id="servicios" class="servicios">
+	<div id="servicios-fp" class="servicios-fp">
 		<h2>Servicios</h2>
 		<p class="serv-sub">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
 		<div class="container">
@@ -76,7 +76,7 @@
 	</div>
 
 	<!-- Portafolio -->
-	<div id="portafolio" class="portafolio">
+	<div id="portafolio-fp" class="portafolio-fp">
 		<h2>Portafolio</h2>
 		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
 		<div class="container-fluid">
@@ -121,7 +121,7 @@
 				</div>
 			</div>
 		</div>
-		<div id="cotizacion">
+		<div id="cotizacion-fp">
 			<div class="container">
 				<div class="row">
 					<div class="col-xs-12 col-sm-12 col-md-5 col-lg-5">

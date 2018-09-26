@@ -23,7 +23,6 @@ jQuery(document).ready( function($) {
 	}
 
 
-
 	$.get( "https://jsonip.com", function( data ) {
 			
 			var url = "https://api.ip2country.info/ip?" + data.ip;
@@ -33,5 +32,25 @@ jQuery(document).ready( function($) {
 		  		$("#country").html(text)
 			});
 	});
+
+
+	/*var options = {
+	    duration: 200,
+	    easing: 'linear',
+	    padding: 0,
+	    align: 'top',
+	    onFinish: function () {}
+	};*/
+	
+	new AnimateScroll('#dev21', options);
+
+	/*$( ".circulo" ).click(function() {
+		$('#dev21').animatescroll({
+			duration: 2500,
+			easing: 'easeInOutQuint',
+			padding: 10,
+			align: top,
+			onFinish: 'onFinish'});
+	});*/
 
 });

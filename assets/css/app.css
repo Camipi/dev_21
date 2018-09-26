@@ -10557,7 +10557,7 @@ header .nav a i {
 .hero-fp p {
   text-align: center;
   font-size: 1.8rem;
-  margin-top: 25vh;
+  margin-top: 15vh;
   color: #2B4690;
 }
 
@@ -10597,7 +10597,7 @@ header .nav a i {
 
 /* Servicios*/
 
-.servicios {
+.servicios-fp {
   margin-bottom: 20vh;
 }
 
@@ -10606,21 +10606,21 @@ header .nav a i {
   margin-bottom: 15vh;
 }
 
-.servicios h4 {
+.servicios-fp h4 {
   text-align: center;
   color: #14264D;
 }
 
-.servicios p {
+.servicios-fp p {
   text-align: center;
 }
 
-.servicios hr {
+.servicios-fp hr {
   margin-top: 10vh;
   margin-bottom: 10vh;
 }
 
-.servicios img {
+.servicios-fp img {
   max-width: 100%;
   height: auto;
   margin-left: 20vh;
@@ -10630,11 +10630,11 @@ header .nav a i {
 
 /* Portafolio*/
 
-.portafolio {
+.portafolio-fp {
   margin-bottom: 15vh;
 }
 
-.portafolio p {
+.portafolio-fp p {
   text-align: center;
   margin-bottom: 10vh;
 }
@@ -10693,7 +10693,7 @@ header .nav a i {
   border: none;
 }
 
-#cotizacion {
+#cotizacion-fp {
   background-color: #F7F7F7;
   padding-top: 10vh;
   padding-bottom: 10vh;
