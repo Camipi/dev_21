@@ -10987,6 +10987,168 @@ header .nav a i {
   }
 }
 
+/* Hero*/
+
+.hero-serv {
+  background-image: url("/images/banner.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.hero-serv h2 {
+  margin-left: 90vh;
+  padding-top: 5vh;
+  text-align: left;
+  font-size: 4rem;
+  padding-top: 45vh;
+}
+
+.hero-serv p {
+  text-align: center;
+  font-size: 1.8rem;
+  margin-top: 25vh;
+  color: #2B4690;
+}
+
+.hero-serv i {
+  color: #1CB5DA;
+}
+
+/* Servicios*/
+
+.servicios-serv {
+  margin-bottom: 20vh;
+}
+
+#serv-sub {
+  text-align: center;
+  margin-top: 10vh;
+  margin-bottom: 22vh;
+}
+
+.servicios-serv h4 {
+  text-align: center;
+  color: #14264D;
+}
+
+.servicios-serv p {
+  text-align: center;
+  margin-bottom: 10vh;
+}
+
+.servicios-serv img {
+  max-width: 100%;
+  height: auto;
+  margin-left: 32vh;
+  margin-right: 32vh;
+  margin-bottom: 8vh;
+}
+
+.servicios-serv hr {
+  margin-top: 5vh;
+  margin-bottom: 15vh;
+}
+
+/* Cotizacion*/
+
+.cotizacion-serv {
+  background-color: #F7F7F7;
+  padding-bottom: 10vh;
+  padding-top: 10vh;
+}
+
+.cotizacion-serv button {
+  width: 100%;
+  height: 6vh;
+  margin-top: 5vh;
+  border: none;
+  background-color: #2B4690;
+  color: #fff;
+  font-weight: 700;
+  border-radius: 10px;
+}
+
+/*Media Queries*/
+
+/* Small devices (landscape phones, 320px and up)*/
+
+@media (min-width: 320px) and (max-width: 576px) {
+  /* Hero*/
+
+  .hero-serv {
+    background-image: none;
+    height: auto;
+  }
+
+  .hero-serv h2 {
+    text-align: center;
+    margin-left: 0px;
+    padding-top: 20vh;
+    font-size: 3rem;
+  }
+
+  .hero-serv p {
+    margin-top: 10vh;
+    text-align: center;
+    font-size: 1.8rem;
+    color: #2B4690;
+  }
+
+  .hero-serv i {
+    color: #1CB5DA;
+  }
+
+  /* Servicios*/
+
+  .servicios-serv img {
+    max-width: 100%;
+    height: auto;
+    margin-left: 10vh;
+    margin-right: 10vh;
+    margin-bottom: 8vh;
+  }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+
+@media (min-width: 577px) and (max-width: 768px) {
+  /* Hero*/
+
+  .hero-serv {
+    background-image: none;
+    height: auto;
+  }
+
+  .hero-serv h2 {
+    margin-left: 0px;
+    padding-top: 25vh;
+    text-align: center;
+  }
+
+  .hero-serv p {
+    text-align: center;
+    font-size: 1.8rem;
+    margin-top: 15vh;
+    color: #2B4690;
+  }
+
+  .hero-serv i {
+    color: #1CB5DA;
+  }
+
+  /* Servicios*/
+
+  .servicios-serv img {
+    max-width: 100%;
+    height: auto;
+    margin-left: 20vh;
+    margin-right: 20vh;
+    margin-bottom: 8vh;
+  }
+}
+
 /*
  *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)

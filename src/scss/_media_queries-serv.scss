@@ -1,0 +1,82 @@
+/*Media Queries*/
+
+/* Small devices (landscape phones, 320px and up)*/
+@media (min-width: 320px) and (max-width: 576px){ 
+
+	/* Hero*/
+
+	.hero-serv {
+		background-image: none;
+		height: auto;
+	}
+
+	.hero-serv h2 {
+		text-align: center;
+		margin-left: 0px;
+		padding-top: 20vh;
+		font-size: 3rem;
+	}
+
+	.hero-serv p {
+		margin-top: 10vh;
+		text-align: center;
+		font-size: 1.8rem;
+		color: #2B4690;
+	}
+
+	.hero-serv i {
+		color: #1CB5DA;
+	}
+
+
+	/* Servicios*/
+
+	.servicios-serv img {
+		max-width: 100%;
+		height: auto;
+		margin-left: 10vh;
+		margin-right: 10vh;
+		margin-bottom: 8vh;
+	}
+
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 577px) and (max-width: 768px) { 
+
+	/* Hero*/
+
+	.hero-serv {
+		background-image: none;
+		height: auto;
+	}
+
+
+	.hero-serv h2 {
+		margin-left: 0px;
+		padding-top: 25vh;
+		text-align: center;
+	}
+
+	.hero-serv p {
+		text-align: center;
+		font-size: 1.8rem;
+		margin-top: 15vh;
+		color: #2B4690;
+	}
+
+	.hero-serv i {
+		color: #1CB5DA;
+	}
+
+	/* Servicios*/
+
+	.servicios-serv img {
+		max-width: 100%;
+		height: auto;
+		margin-left: 20vh;
+		margin-right: 20vh;
+		margin-bottom: 8vh;
+	}
+
+}
