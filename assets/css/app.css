@@ -11275,6 +11275,203 @@ header .nav a i {
   }
 }
 
+/*Hero*/
+
+.hero-blog {
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  margin-top: 20vh;
+}
+
+.hero-blog h1 {
+  padding-top: 8vh;
+  font-size: 4rem;
+}
+
+.hero-blog h5 {
+  padding-top: 8vh;
+  color: #2b4690;
+  margin-bottom: 5vh;
+}
+
+.hero-blog h6 {
+  padding-top: 3vh;
+  color: #14264d;
+}
+
+.hero-blog p {
+  text-align: left;
+}
+
+/* Noticias*/
+
+.noticias-blog h3 {
+  color: #2b4690;
+}
+
+.izq {
+  text-align: right;
+}
+
+.noticia-blog {
+  margin-bottom: 20vh;
+}
+
+.flechas-blog a {
+  color: #2b4690;
+  text-decoration: none;
+}
+
+.flechas-blog {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #2b4690;
+  margin-top: 5vh;
+  margin-bottom: 20vh;
+}
+
+hr {
+  margin-top: 10vh;
+}
+
+.paginacion-blog {
+  display: inline-block;
+}
+
+.paginacion-blog a {
+  border: none;
+  border-radius: none;
+  color: #14264d;
+  text-align: center;
+}
+
+.noti-text {
+  margin-top: 10vh;
+}
+
+.noti-titulo {
+  margin-top: 5vh;
+}
+
+.noti-fecha {
+  margin-top: 5vh;
+}
+
+/* Media Queries*/
+
+/* Small devices (landscape phones, 320px and up)*/
+
+@media (min-width: 320px) and (max-width: 576px) {
+  /* Hero*/
+
+  .hero-blog {
+    background-image: none;
+    height: auto;
+    margin-bottom: 15vh;
+  }
+
+  .hero-blog h1 {
+    margin-left: 0px;
+    padding-top: 5vh;
+    font-size: 3rem;
+  }
+
+  .hero-blog h2 {
+    margin-left: 0px;
+    padding-top: 5vh;
+  }
+
+  .hero-blog i {
+    color: #1CB5DA;
+  }
+
+  /* Noticias*/
+
+  .izq {
+    text-align: left;
+  }
+
+  .flechas {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #2b4690;
+    margin-bottom: 5vh;
+  }
+
+  .noticia {
+    margin-bottom: 10vh;
+  }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+
+@media (min-width: 577px) and (max-width: 768px) {
+  /* Hero*/
+
+  .hero-blog {
+    background-image: none;
+    height: auto;
+    margin-bottom: 15vh;
+  }
+
+  .hero-blog h1 {
+    margin-left: 0px;
+    padding-top: 5vh;
+    font-size: 3rem;
+  }
+
+  .hero-blog h2 {
+    margin-left: 0px;
+    padding-top: 5vh;
+  }
+
+  .hero-blog i {
+    color: #1CB5DA;
+  }
+
+  /* Noticias*/
+
+  .izq {
+    text-align: left;
+  }
+
+  .flechas {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #2b4690;
+    margin-bottom: 5vh;
+  }
+
+  .noticia {
+    margin-bottom: 10vh;
+  }
+}
+
+/* Large devices (desktops, 992px and up)*/
+
+@media (min-width: 769px) and (max-width: 992px) {
+  .flechas {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #2b4690;
+    margin-top: 5vh;
+    margin-bottom: 20vh;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+
+@media (min-width: 993px) and (max-width: 1440px) {
+  .flechas {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #2b4690;
+    margin-top: 5vh;
+    margin-bottom: 20vh;
+  }
+}
+
 /*
  *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
