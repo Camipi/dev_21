@@ -11149,6 +11149,132 @@ header .nav a i {
   }
 }
 
+/* Hero*/
+
+.hero-port {
+  background-image: url("/images/banner_portafolio.svg");
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.hero-port h1 {
+  margin-left: 35vh;
+  padding-top: 35vh;
+  font-size: 3.5rem;
+}
+
+.hero-port h2 {
+  margin-left: 95vh;
+  padding-top: 5vh;
+  text-align: left;
+}
+
+.hero-port p {
+  margin-top: 35vh;
+}
+
+.hero-port i {
+  margin-top: 3.5vh;
+  margin-left: 30vh;
+  color: #1CB5DA;
+  font-size: 1.5rem;
+}
+
+/* Proyectos*/
+
+.proyectos-port h5 {
+  color: #2b4690;
+}
+
+.proyectos-port h6 {
+  color: #14264d;
+}
+
+.gal-img-1 {
+  margin-bottom: 20vh;
+}
+
+.gal-img-2 {
+  margin-bottom: 20vh;
+}
+
+.gal-img-3 {
+  margin-bottom: 20vh;
+}
+
+/* Media Queries*/
+
+/* Small devices (landscape phones, 320px and up)*/
+
+@media (min-width: 320px) and (max-width: 576px) {
+  /* Hero*/
+
+  .hero-port {
+    background-image: none;
+    height: auto;
+  }
+
+  .hero-port h1 {
+    text-align: center;
+    margin-left: 0px;
+    padding-top: 20vh;
+    font-size: 2.5rem;
+  }
+
+  .hero-port p {
+    margin-top: 0;
+    text-align: center;
+    font-size: 1rem;
+    color: #2B4690;
+    margin-bottom: 10vh;
+  }
+
+  .hero-port i {
+    color: #1CB5DA;
+    font-size: 1.5rem;
+    margin-left: 0;
+  }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+
+@media (min-width: 577px) and (max-width: 768px) {
+  /* Hero*/
+
+  .hero-port {
+    background-image: none;
+    height: auto;
+  }
+
+  .hero-port h1 {
+    text-align: center;
+    margin-left: 0px;
+    padding-top: 20vh;
+    font-size: 3rem;
+  }
+
+  .hero-port h2 {
+    margin-left: 0px;
+    padding-top: 5vh;
+    text-align: center;
+  }
+
+  .hero-port p {
+    margin-top: 0;
+    text-align: center;
+    font-size: 1rem;
+    color: #2B4690;
+    margin-bottom: 10vh;
+  }
+
+  .hero-port i {
+    color: #1CB5DA;
+    font-size: 1.5rem;
+    margin-left: 0;
+  }
+}
+
 /*
  *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
