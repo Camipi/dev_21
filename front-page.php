@@ -16,7 +16,6 @@
 					<h1><strong>Bienvenido a<br> Dev_21</strong></h1>
 					<h2>Lorem Ipsum is simply<br> dummy text of the<br> printing.</h2>
 					<p><a class="circulo"><i class="far fa-arrow-alt-circle-down"></i></a></p>
-					<img class="img-fluid d-none d-sm-block d-sm-none d-md-block d-md-none" src="<?php echo get_bloginfo('template_url') ?>/assets/images/banner-2.svg" alt="banner">
 				</div>
 			</div>
 		</div>
