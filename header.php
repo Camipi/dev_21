@@ -5,7 +5,6 @@
 	<meta charset="<?php bloginfo('charset') ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="http://gmpg.org/xfn/11">
-	<link rel="stylesheet" href="<?php get_template_directory_uri(); ?>/css/app.css"/>
 	<title>Dev_21</title>
 	<?php get_template_part('_includes/iOS', 'icons') ?>
 	<?php wp_head() ?>

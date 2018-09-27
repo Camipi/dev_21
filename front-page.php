@@ -7,13 +7,14 @@
 				<div class="col-md-4">
 					<span id="country"></span>
 				</div>
-			</div>
+		</div>
+
 		<div class="row">
 			<div class="container">
 				<div class="col-md-12">
 					<h1><strong>Bienvenido a<br> Dev_21</strong></h1>
 					<h2>Lorem Ipsum is simply<br> dummy text of the<br> printing.</h2>
-					<p><a href="#dev21" class="circulo"><i class="far fa-arrow-alt-circle-down"></i></a></p>
+					<p><a class="circulo"><i class="far fa-arrow-alt-circle-down"></i></a></p>
 				</div>
 			</div>
 		</div>
@@ -24,7 +25,18 @@
 		<div class="container">
 			<h1>Dev_21</h1>
 			<p class="dev21-par1">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-			<p class="dev21-par2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.<br>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+			<div class="row">
+				<div class="col-md-2"></div>
+				<div class="col-md-8">
+					<p class="dev21-par2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+				</div>
+				<div class="col-md-2"></div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<p class="dev21-fp"><a class="circulo2"><i class="far fa-arrow-alt-circle-down"></i></a></p>
+				</div>
+			</div>
 		</div>
 	</div>
 
@@ -52,7 +64,9 @@
 					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
 				</div>
 			</div>
+
 			<hr/>
+
 			<div class="row">
 				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
 					<img class="img-fluid" src="<?php echo get_bloginfo('template_url') ?>/assets/images/icon1.svg" alt="icono de servicio">
@@ -85,9 +99,11 @@
 					<img class="img-fluid" src="<?php echo get_bloginfo('template_url') ?>/assets/images/banner.svg" alt="placeholder de imagen">
 					<img class="img-fluid" src="<?php echo get_bloginfo('template_url') ?>/assets/images/banner.svg" alt="placeholder de imagen">
 				</div>
+
 				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
 					<img class="img-fluid" src="<?php echo get_bloginfo('template_url') ?>/assets/images/banner.svg" alt="placeholder de imagen">
 				</div>
+
 				<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
 					<img class="img-fluid" src="<?php echo get_bloginfo('template_url') ?>/assets/images/banner.svg" alt="placeholder de imagen">
 					<img class="img-fluid" src="<?php echo get_bloginfo('template_url') ?>/assets/images/banner.svg" alt="placeholder de imagen">
@@ -101,11 +117,13 @@
 		<h2>Contacto</h2>
 		<p class="cont-sub">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
 		<div id="map"></div>
+
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 cont-mail">
 					<p><i class="fas fa-envelope"></i> contacto@dev21.cl</p>
 				</div>
+
 				<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 cont-dir justify-content-center">
 					<p>
 						<i class="fas fa-map-marker-alt"></i> Selecciona la oficina que deseas visitar
@@ -114,22 +132,26 @@
 							<option value="1">Manuel Rodríguez 867. Ofic. 708</option>
 							<option value="2">Lord Cochrane 635. Ofic. 1409A</option>
 						</select>
-						</p>
+					</p>
 				</div>
+
 				<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 cont-telf">
 					<p><i class="fas fa-phone-volume"></i> +56 9 7977 3457</p>
 				</div>
 			</div>
 		</div>
-		<div id="cotizacion-fp">
-			<div class="container">
+
+		<div id="cotizacion-fp" class="cotizacion-fp">
+ 			<div class="container">
 				<div class="row">
 					<div class="col-xs-12 col-sm-12 col-md-5 col-lg-5">
 						<h4>Pide tu cotización</h4>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta voluptatem, tenetur eum tempore minus libero voluptates eos doloremque.</p>
 					</div>
+
 					<div class="col-xs-12 col-sm-12 col-md-7 col-lg-7">
 						<form>
+
 							 <div class="form-row">
 							    <div class="form-group col-md-6">
 							    	<label for="inputEmail4">Nombre</label>
@@ -145,8 +167,10 @@
 						    	<textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Ingresa tu mensaje"></textarea>
 						  	</div>
 							<button type="submit" class="btn btn-primary">Enviar</button>
+
 						</form>
 					</div>
+
 				</div>
 			</div>
 		</div>

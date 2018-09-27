@@ -33,13 +33,15 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-4">
-					<h5>Proyecto</h5>
+					<h5><a href="#"><i class="far fa-arrow-alt-circle-right"></i> Proyecto</a></h5>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore consequatur cumque.</p>
 					<h6>Cliente</h6>
 					<img class="img-fluid" src="<?php echo get_bloginfo('template_url') ?>/assets/images/banner.svg" alt="icono de servicio">
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam praesentium similique aspernatur aut velit, totam perspiciatis nostrum quibusdam at culpa ipsam pariatur sed, perferendis. Voluptatibus culpa sint sed odio enim!</p>
 				</div>
-				<div class="col-md-8"><img src="img/banner.svg" alt=""></div>
+				<div class="col-md-8">
+					<img class="img-fluid" src="<?php echo get_bloginfo('template_url') ?>/assets/images/banner.svg" alt="icono de servicio">
+				</div>
 			</div>
 			<div class="gal-img-1">
 				<div class="row">
@@ -54,13 +56,13 @@
 					</div>
 				</div>
 			</div>
-			<hr/>
+			<hr class="port-separador" />
 			<div class="row">
 				<div class="col-md-8">
 					<img class="img-fluid" src="<?php echo get_bloginfo('template_url') ?>/assets/images/banner.svg" alt="icono de servicio">
 				</div>
 				<div class="col-md-4">
-					<h5>Proyecto</h5>
+					<h5><a href="#"><i class="far fa-arrow-alt-circle-right"></i> Proyecto</a></h5>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore consequatur cumque.</p>
 					<h6>Cliente</h6>
 					<img class="img-fluid" src="<?php echo get_bloginfo('template_url') ?>/assets/images/banner.svg" alt="icono de servicio">
@@ -80,10 +82,10 @@
 					</div>
 				</div>
 			</div>
-			<hr/>
+			<hr class="port-separador" />
 			<div class="row">
 				<div class="col-md-4">
-					<h5>Proyecto</h5>
+					<h5><a href="#"><i class="far fa-arrow-alt-circle-right"></i> Proyecto</a></h5>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore consequatur cumque.</p>
 					<h6>Cliente</h6>
 					<img class="img-fluid" src="<?php echo get_bloginfo('template_url') ?>/assets/images/banner.svg" alt="icono de servicio">

@@ -1,18 +1,30 @@
 /* DEV21*/
 
-.dev21 h1 {
-	margin-top: 10vh;
-	text-align: center;
+.dev21 {
+	margin-top: 30vh;
+	margin-bottom: 30vh;
 }
 
-.dev21 p {
+.dev21 h1 {
 	text-align: center;
 }
 
 .dev21-par1 {
+	text-align: center;
 	margin-bottom: 10vh;
 }
 
 .dev21-par2 {
-	margin-bottom: 20vh;
+	text-align: center;
+}
+
+.dev21-fp {
+	text-align: center;
+	font-size: 1.8rem;
+	margin-top: 15vh;
+	color: #2B4690;
+
+	i {
+		color: #1CB5DA;
+	}
 }

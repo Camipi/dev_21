@@ -26,6 +26,7 @@ function dl_enqueue_scripts() {
 	wp_register_script( 'flickity', get_theme_file_uri('/assets/js/lib/flickity.pkgd.js'), array('jquery-migrate'), '2.1.0', true );
 	wp_register_script( 'flexslider', get_theme_file_uri('/assets/js/lib/jquery.flexslider.js'), array('jquery-migrate'), null, true );
 	wp_register_script( 'main_js', get_theme_file_uri('/assets/js/app.js'), array('jquery-migrate'), $theme_data->get( 'Version' ), true );
+	wp_register_script( 'scrollxy', get_theme_file_uri('/node_modules/js-animate-scroll/dist/animate-scroll.min.js'), array('jquery-migrate'), null, true );
 
 
 	if ($theme_options['woocommerce_enabled'] || $theme_options['slider']['flexslider'] || $theme_options['slider']['flickity']) {
@@ -46,6 +47,7 @@ function dl_enqueue_scripts() {
 	}
 
 	wp_enqueue_script( 'main_js' );
+	wp_enqueue_script( 'scrollxy' );
 
 }
 

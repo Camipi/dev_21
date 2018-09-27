@@ -16,8 +16,16 @@
 	<!-- Servicios -->
 	<div class="servicios-serv">
 		<div class="container">
-			<p id="serv-sub">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, vero, omnis. Asperiores obcaecati omnis minus laborum repellat? Sit, animi! Modi corporis perspiciatis obcaecati, id, quidem assumenda velit. Architecto, debitis libero. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis dolor adipisci iure est nisi, voluptates deleniti sed! Accusantium provident eius reiciendis cum quisquam. Accusamus quas fugit voluptate, eum consequuntur fugiat.</p>
+			<div class="row">
+				<div class="col-md-2"></div>
+				<div class="col-md-8">
+					<p id="serv-sub">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, vero, omnis. Asperiores obcaecati omnis minus laborum repellat? Sit, animi! Modi corporis perspiciatis obcaecati, id, quidem assumenda velit. Architecto, debitis libero. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis dolor adipisci iure est nisi, voluptates deleniti sed! Accusantium provident eius reiciendis cum quisquam. Accusamus quas fugit voluptate, eum consequuntur fugiat.
+					</p>
+				</div>
+				<div class="col-md-2"></div>
+			</div>
 		</div>
+
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
@@ -25,32 +33,39 @@
 					<h4>SERVICIO</h4>
 					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
 				</div>
+
 				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
 					<img class="img-fluid" src="<?php echo get_bloginfo('template_url') ?>/assets/images/icon2.svg" alt="icono de servicio">
 					<h4>SERVICIO</h4>
 					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
 				</div>
 			</div>
+
 			<hr/>
+
 			<div class="row">
 				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
 					<img class="img-fluid" src="<?php echo get_bloginfo('template_url') ?>/assets/images/icon3.svg" alt="icono de servicio">
 					<h4>SERVICIO</h4>
 					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
 				</div>
+
 				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
 					<img class="img-fluid" src="<?php echo get_bloginfo('template_url') ?>/assets/images/icon1.svg" alt="icono de servicio">
 					<h4>SERVICIO</h4>
 					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
 				</div>
 			</div>
+
 			<hr/>
+			
 			<div class="row">
 				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
 					<img class="img-fluid" src="<?php echo get_bloginfo('template_url') ?>/assets/images/icon2.svg" alt="icono de servicio">
 					<h4>SERVICIO</h4>
 					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
 				</div>
+
 				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
 					<img class="img-fluid" src="<?php echo get_bloginfo('template_url') ?>/assets/images/icon3.svg" alt="icono de servicio">
 					<h4>SERVICIO</h4>

@@ -10535,7 +10535,7 @@ header .nav a i {
 /* Hero*/
 
 .hero-fp {
-  background-image: url("/assets/images/banner.svg");
+  background-image: url("/wp-content/themes/dev21/assets/images/banner.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -10578,21 +10578,33 @@ header .nav a i {
 
 /* DEV21*/
 
-.dev21 h1 {
-  margin-top: 10vh;
-  text-align: center;
+.dev21 {
+  margin-top: 30vh;
+  margin-bottom: 30vh;
 }
 
-.dev21 p {
+.dev21 h1 {
   text-align: center;
 }
 
 .dev21-par1 {
+  text-align: center;
   margin-bottom: 10vh;
 }
 
 .dev21-par2 {
-  margin-bottom: 20vh;
+  text-align: center;
+}
+
+.dev21-fp {
+  text-align: center;
+  font-size: 1.8rem;
+  margin-top: 15vh;
+  color: #2B4690;
+}
+
+.dev21-fp i {
+  color: #1CB5DA;
 }
 
 /* Servicios*/
@@ -10691,6 +10703,10 @@ header .nav a i {
   width: 100%;
   background-color: #2B4690;
   border: none;
+}
+
+.cotizacion-fp {
+  text-align: left;
 }
 
 #cotizacion-fp {
@@ -11028,6 +11044,10 @@ header .nav a i {
   margin-bottom: 22vh;
 }
 
+.serv-separador {
+  margin-bottom: 10vh;
+}
+
 .servicios-serv h4 {
   text-align: center;
   color: #14264D;
@@ -11183,8 +11203,13 @@ header .nav a i {
 
 /* Proyectos*/
 
-.proyectos-port h5 {
+.proyectos-port a {
   color: #2b4690;
+}
+
+.proyectos-port a:link {
+  color: #2b4690;
+  text-decoration: none;
 }
 
 .proyectos-port h6 {
@@ -11201,6 +11226,10 @@ header .nav a i {
 
 .gal-img-3 {
   margin-bottom: 20vh;
+}
+
+.port-separador {
+  margin-bottom: 10vh;
 }
 
 /* Media Queries*/
@@ -11339,11 +11368,17 @@ hr {
   display: inline-block;
 }
 
-.paginacion-blog a {
+.paginacion-blog .pagination a {
   border: none;
   border-radius: none;
   color: #14264d;
   text-align: center;
+}
+
+.paginacion-blog .pagination {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
 }
 
 .noti-text {

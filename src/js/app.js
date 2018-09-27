@@ -1,3 +1,5 @@
+import 'js-animate-scroll/dist/animate-scroll.min.js';
+
 jQuery(document).ready( function($) {
 
 	window.dataLayer = window.dataLayer || [];
@@ -34,23 +36,37 @@ jQuery(document).ready( function($) {
 	});
 
 
-	/*var options = {
-	    duration: 200,
-	    easing: 'linear',
-	    padding: 0,
-	    align: 'top',
-	    onFinish: function () {}
-	};*/
 	
-	new AnimateScroll('#dev21', options);
+	
+	
 
-	/*$( ".circulo" ).click(function() {
-		$('#dev21').animatescroll({
-			duration: 2500,
-			easing: 'easeInOutQuint',
-			padding: 10,
-			align: top,
-			onFinish: 'onFinish'});
-	});*/
+	$( ".circulo" ).click(function() {
+		console.log("entra a onclick");
+
+		var options = {
+		    duration: 600,
+		    easing: 'easeInOutQuad',
+		    padding: 300,
+		    align: 'top',
+		    onFinish: function () {
+		    }
+		};
+		new AnimateScroll('#dev21', options);
+	});
+
+
+	$( ".circulo2" ).click(function() {
+		console.log("entra a onclick");
+
+		var options = {
+		    duration: 600,
+		    easing: 'easeInOutQuad',
+		    padding: 200,
+		    align: 'top',
+		    onFinish: function () {
+		    }
+		};
+		new AnimateScroll('#servicios-fp', options);
+	});
 
 });
