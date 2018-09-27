@@ -1,6 +1,7 @@
 <?php get_header(); ?>
 
 	<!-- Hero -->
+	<!-- Parallax: <section class="hero-fp parallax-window" data-parallax="scroll" data-image-src="/wp-content/themes/dev21/assets/images/banner-1.svg" -->
 	<section class="hero-fp">
 		<div class="row country">
 				<div class="col-md-8"></div>
@@ -15,6 +16,7 @@
 					<h1><strong>Bienvenido a<br> Dev_21</strong></h1>
 					<h2>Lorem Ipsum is simply<br> dummy text of the<br> printing.</h2>
 					<p><a class="circulo"><i class="far fa-arrow-alt-circle-down"></i></a></p>
+					<img class="img-fluid d-none d-sm-block d-sm-none d-md-block d-md-none" src="<?php echo get_bloginfo('template_url') ?>/assets/images/banner-2.svg" alt="banner">
 				</div>
 			</div>
 		</div>
@@ -88,6 +90,9 @@
 			</div>
 		</div>
 	</div>
+
+	<!-- Slogan -->
+	<?php get_template_part(slogan) ?>
 
 	<!-- Portafolio -->
 	<div id="portafolio-fp" class="portafolio-fp">

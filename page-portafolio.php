@@ -111,4 +111,6 @@
 		</div>
 	</div>
 
+	<?php get_template_part(cotizacion) ?>
+
 <?php get_footer() ?>

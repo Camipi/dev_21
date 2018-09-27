@@ -38,7 +38,7 @@ jQuery(document).ready( function($) {
 
 	
 	
-	
+	// jQuery Plugin AnimateScroll
 
 	$( ".circulo" ).click(function() {
 		console.log("entra a onclick");
@@ -61,12 +61,21 @@ jQuery(document).ready( function($) {
 		var options = {
 		    duration: 600,
 		    easing: 'easeInOutQuad',
-		    padding: 200,
+		    padding: 50,
 		    align: 'top',
 		    onFinish: function () {
 		    }
 		};
 		new AnimateScroll('#servicios-fp', options);
 	});
+
+
+
+	// jQuery Plugin Parallax
+
+	/*$('.parallax-window').parallax({
+		speed: .3,
+  	
+  	});*/
 
 });

@@ -27,36 +27,24 @@
 
 			<div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
 			    <ul class="nav">
-				  <li class="nav-item">
-				    <a class="nav-link active" href="#dev21">Dev21</a>
-				  </li>
-				  <li class="nav-item">
-				    <a class="nav-link" href="servicios.html">Servicios</a>
-				  </li>
-				  <li class="nav-item">
-				    <a class="nav-link" href="portafolio.html">Portafolio</a>
-				  </li>
-				  <li class="nav-item">
-				    <a class="nav-link" href="blog.html">Blog</a>
-				  </li>
-				  <li class="nav-item">
-				    <a class="nav-link" href="#contacto">Contacto</a>
-				  </li>				  
+					<li class="nav-item">
+					    <a class="nav-link active" href="http://localhost:8888/servicios/">Dev21</a>
+					</li>
+					<li class="nav-item">
+					    <a class="nav-link" href="servicios.html">Servicios</a>
+					</li>
+					<li class="nav-item">
+					    <a class="nav-link" href="portafolio.html">Portafolio</a>
+					</li>
+					<li class="nav-item">
+					    <a class="nav-link" href="blog.html">Blog</a>
+					</li>
+					<li class="nav-item">
+					    <a class="nav-link" href="#contacto">Contacto</a>
+					</li>				  
 				</ul>
 			</div>
 
-			<div class="collapse navbar-collapse justify-content-end redes" id="navbarSupportedContent">
-			    <ul class="nav">
-				  <li class="nav-item">
-				    <a class="nav-link active" href="#"><i class="fab fa-facebook-square"></i></a>
-				  </li>
-				  <li class="nav-item">
-				    <a class="nav-link" href="#"><i class="fab fa-twitter-square"></i></a>
-				  </li>
-				  <li class="nav-item">
-				    <a class="nav-link" href="#"><i class="fab fa-linkedin"></i></a>
-				  </li>				  		  
-				</ul>
-			</div>
+			<?php get_template_part(redes) ?>
 		</nav>
 	</header>

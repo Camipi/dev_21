@@ -10535,12 +10535,18 @@ header .nav a i {
 /* Hero*/
 
 .hero-fp {
-  background-image: url("/wp-content/themes/dev21/assets/images/banner.svg");
+  background-image: url("/wp-content/themes/dev21/assets/images/banner-1.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   width: 100%;
   height: 100vh;
+}
+
+.hero-fp img {
+  position: relative;
+  margin-top: -70%;
+  width: 100%;
 }
 
 .hero-fp h1 {
@@ -10576,11 +10582,16 @@ header .nav a i {
   font-weight: bold;
 }
 
+.parallax-window {
+  min-height: 400px;
+  background: transparent;
+}
+
 /* DEV21*/
 
 .dev21 {
   margin-top: 30vh;
-  margin-bottom: 30vh;
+  margin-bottom: 5vh;
 }
 
 .dev21 h1 {
@@ -10610,7 +10621,11 @@ header .nav a i {
 /* Servicios*/
 
 .servicios-fp {
-  margin-bottom: 20vh;
+  padding-top: 20vh;
+  padding-bottom: 20vh;
+  margin-top: 20vh;
+  margin-bottom: 0;
+  background-color: #F9F9F9;
 }
 
 .serv-sub {
@@ -10638,6 +10653,11 @@ header .nav a i {
   margin-left: 20vh;
   margin-right: 20vh;
   margin-bottom: 8vh;
+}
+
+.slogan {
+  position: relative;
+  margin-top: -5%;
 }
 
 /* Portafolio*/
@@ -10763,29 +10783,29 @@ header .nav a i {
 @media (min-width: 320px) and (max-width: 576px) {
   /* Hero*/
 
-  .hero {
+  .hero-fp {
     background-image: none;
     height: auto;
   }
 
-  .hero h1 {
+  .hero-fp h1 {
     margin-left: 0px;
     font-size: 2.5rem;
   }
 
-  .hero h2 {
+  .hero-fp h2 {
     margin-left: 0px;
     padding-top: 5vh;
   }
 
-  .hero p {
+  .hero-fp p {
     margin-top: 10vh;
     text-align: center;
     font-size: 1.8rem;
     color: #2B4690;
   }
 
-  .hero i {
+  .hero-fp i {
     color: #1CB5DA;
   }
 
@@ -10824,7 +10844,7 @@ header .nav a i {
 
   /* Servicios*/
 
-  .servicios img {
+  .servicios-fp img {
     margin-top: 3vh;
     max-width: 100%;
     height: auto;
@@ -10834,36 +10854,36 @@ header .nav a i {
   }
 }
 
-/* Medium devices (tablets, 768px and up)*/
+/* Medium devices (tablets, 577px and up)*/
 
 @media (min-width: 577px) and (max-width: 768px) {
   /* Hero*/
 
-  .hero {
+  .hero-fp {
     background-image: none;
     height: auto;
   }
 
-  .hero h1 {
+  .hero-fp h1 {
     margin-left: 0px;
     text-align: center;
     font-size: 2.5rem;
   }
 
-  .hero h2 {
+  .hero-fp h2 {
     margin-left: 0px;
     padding-top: 5vh;
     text-align: center;
   }
 
-  .hero p {
+  .hero-fp p {
     text-align: center;
     font-size: 1.8rem;
     margin-top: 15vh;
     color: #2B4690;
   }
 
-  .hero i {
+  .hero-fp i {
     color: #1CB5DA;
   }
 
@@ -10878,7 +10898,7 @@ header .nav a i {
 
   /* Servicios*/
 
-  .servicios img {
+  .servicios-fp img {
     display: block;
     margin-top: 5vh;
     max-width: 100%;
@@ -10909,13 +10929,13 @@ header .nav a i {
   }
 }
 
-/* Large devices (desktops, 992px and up)*/
+/* Large devices (desktops, 769px and up)*/
 
 @media (min-width: 769px) and (max-width: 992px) {
   /* Hero*/
 
-  .hero {
-    background-image: url("/assets/images/banner.svg");
+  .hero-fp {
+    background-image: url("/wp-content/themes/dev21/assets/images/banner-1.svg");
     background-repeat: no-repeat;
     background-position: center;
     width: 100%;
@@ -10924,31 +10944,31 @@ header .nav a i {
     padding-top: 0;
   }
 
-  .hero h1 {
+  .hero-fp h1 {
     margin-left: 26vh;
     font-size: 4rem;
   }
 
-  .hero h2 {
+  .hero-fp h2 {
     margin-left: 75vh;
     padding-top: 5vh;
     text-align: left;
   }
 
-  .hero p {
+  .hero-fp p {
     text-align: center;
     font-size: 1.8rem;
     margin-top: 25vh;
     color: #2B4690;
   }
 
-  .hero i {
+  .hero-fp i {
     color: #1CB5DA;
   }
 
   /* Servicios*/
 
-  .servicios img {
+  .servicios-fp img {
     max-width: 100%;
     height: auto;
     margin-left: 20vh;
@@ -10957,44 +10977,44 @@ header .nav a i {
   }
 }
 
-/* Extra large devices (large desktops, 1200px and up)*/
+/* Extra large devices (large desktops, 993px and up)*/
 
 @media (min-width: 993px) and (max-width: 1440px) {
   /* Hero*/
 
-  .hero {
-    background-image: url("/assets/images/banner.svg");
+  .hero-fp {
+    background-image: url("/wp-content/themes/dev21/assets/images/banner-1.svg");
     background-repeat: no-repeat;
     background-position: center;
     width: 100%;
     height: 100vh;
   }
 
-  .hero h1 {
+  .hero-fp h1 {
     margin-left: 26vh;
     font-size: 4rem;
   }
 
-  .hero h2 {
+  .hero-fp h2 {
     margin-left: 95vh;
     padding-top: 5vh;
     text-align: left;
   }
 
-  .hero p {
+  .hero-fp p {
     text-align: center;
     font-size: 1.8rem;
     margin-top: 25vh;
     color: #2B4690;
   }
 
-  .hero i {
+  .hero-fp i {
     color: #1CB5DA;
   }
 
   /* Servicios*/
 
-  .servicios img {
+  .servicios-fp img {
     max-width: 100%;
     height: auto;
     margin-left: 20vh;
@@ -11006,9 +11026,10 @@ header .nav a i {
 /* Hero*/
 
 .hero-serv {
-  background-image: url("/images/banner.svg");
+  background-image: url("/wp-content/themes/dev21/assets/images/banner.svg");
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
   width: 100%;
   height: 100vh;
 }
@@ -11172,7 +11193,7 @@ header .nav a i {
 /* Hero*/
 
 .hero-port {
-  background-image: url("/images/banner_portafolio.svg");
+  background-image: url("/wp-content/themes/dev21/assets/images/banner_portafolio.svg");
   background-position: center;
   width: 100%;
   height: 100vh;
