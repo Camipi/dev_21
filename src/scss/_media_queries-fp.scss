@@ -32,13 +32,11 @@
 	}
 
 	.country {
-		display: block;
-		text-align: left;	
-		padding-top: 20vh;
-		font-size: 1.2rem;
+		text-align: left;
 		color: #2B4690;
 		font-weight: bold;
-		margin-left: .5vh;
+		padding-top: 20vh;
+		margin-left: 3vh;
 	}
 
 	/* DEV21*/
@@ -129,12 +127,11 @@
 	}
 
 	.country {
-		display: block;
-		text-align: center;	
-		padding-top: 20vh;
-		font-size: 1.2rem;
+		text-align: center;
 		color: #2B4690;
 		font-weight: bold;
+		padding-top: 20vh;
+		margin-left: 0;
 	}
 
 	/* Servicios*/
@@ -212,6 +209,14 @@
 		color: #1CB5DA;
 	}
 
+	.country {
+		text-align: left;
+		color: #2B4690;
+		font-weight: bold;
+		padding-top: 20vh;
+		margin-left: 5vh;
+	}
+
 	/* Dev21*/
 
 	.dev21 {
@@ -270,7 +275,6 @@
 	}
 
 	.hero-fp h2 {
-		margin-left: 70vh;
 		padding-top: 0vh;
 		text-align: left;
 	}
@@ -284,6 +288,14 @@
 
 	.hero-fp i {
 		color: #1CB5DA;
+	}
+
+	.country {
+		text-align: left;
+		color: #2B4690;
+		font-weight: bold;
+		padding-top: 20vh;
+		margin-left: 18vh;
 	}
 
 	/* Dev21*/
@@ -324,7 +336,6 @@
 	}
 
 	.hero-fp h2 {
-		margin-left: 95vh;
 		padding-top: 5vh;
 		text-align: left;
 	}
@@ -339,6 +350,15 @@
 	.hero-fp i {
 		color: #1CB5DA;
 	}
+
+	.country {
+		text-align: left;
+		color: #2B4690;
+		font-weight: bold;
+		padding-top: 20vh;
+		margin-left: 48vh;
+	}
+
 
 	/* Servicios*/
 

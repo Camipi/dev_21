@@ -12,6 +12,7 @@
 	<?php } ?>
 <?php } else { ?>
 	<!-- Content -->
+	contenido
 <?php } wp_reset_query(); ?>
 
 <?php get_sidebar() ?>

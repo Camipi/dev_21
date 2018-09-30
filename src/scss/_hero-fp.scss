@@ -15,7 +15,7 @@
 }
 
 .hero-fp h2 {
-	margin-left: 95vh;
+	margin-left: 80vh;
 	padding-top: 5vh;
 	text-align: left;
 }
@@ -23,7 +23,7 @@
 .hero-fp p {
 	text-align: center;
 	font-size: 1.8rem;
-	margin-top: 15vh;
+	margin-top: 25vh;
 	color: #2B4690;
 }
 
@@ -32,17 +32,15 @@
 }
 
 .country {
-	display: block;
-	text-align: right;	
-	margin-right: 3vh;
-	margin-top: 3vh;
-	padding-top: 20vh;
-	font-size: 1.2rem;
+	text-align: left;
 	color: #2B4690;
 	font-weight: bold;
+	padding-top: 20vh;
+	margin-left: 48vh;
 }
 
+
 .parallax-window {
-    min-height: 400px;
+  	height: auto;
     background: transparent;
 }

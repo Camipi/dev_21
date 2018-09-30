@@ -1,7 +1,7 @@
 /* Media Queries*/
 
-/* Small devices (landscape phones, 320px and up)*/
-@media (min-width: 320px) and (max-width: 576px){ 
+/* Extra small devices (landscape phones, 320px and up)*/
+@media (min-width: 320px) and (max-width: 575px){ 
 
 	/* Hero*/
 
@@ -45,8 +45,8 @@
 
 }
 
-/* Medium devices (tablets, 768px and up)*/
-@media (min-width: 577px) and (max-width: 768px) { 
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767px) { 
 
 	/* Hero*/
 
@@ -90,8 +90,8 @@
 
 }
 
-/* Large devices (desktops, 992px and up)*/
-@media (min-width: 769px) and (max-width: 992px) {
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991px) {
 
 	.flechas {
 		text-align: center;
@@ -104,8 +104,8 @@
 }
 
 
-/* Extra large devices (large desktops, 1200px and up)*/
-@media (min-width: 993px) and (max-width: 1440px) {
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199px) {
 
 	.flechas {
 		text-align: center;
@@ -115,4 +115,10 @@
 		margin-bottom: 20vh;
 	}
 
+}
+
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+	
 }

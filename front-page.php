@@ -3,11 +3,12 @@
 	<!-- Hero -->
 	<!-- Parallax: <section class="hero-fp parallax-window" data-parallax="scroll" data-image-src="/wp-content/themes/dev21/assets/images/banner-1.svg" -->
 	<section class="hero-fp">
-		<div class="row country">
-				<div class="col-md-8"></div>
-				<div class="col-md-4">
+		<div class="country">
+			<div class="row">
+				<div class="col-md-12">
 					<span id="country"></span>
 				</div>
+			</div>
 		</div>
 
 		<div class="row">
@@ -201,10 +202,10 @@ function initMap() {
   // The marker, positioned at Uluru
   var marker = new google.maps.Marker({position: uluru, map: map});
 }
-    </script>
+</script>
 
 <script async defer
-	src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAjTN60PgDd9LSb52tnfvw7A9XVpvBNaDI&callback=initMap">
+	src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB2knWT2b3Q6Wc33EFX_35pINcqpHoAN2g&callback=initMap">
 </script>
 
 

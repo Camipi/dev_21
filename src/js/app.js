@@ -2,12 +2,16 @@ import 'js-animate-scroll/dist/animate-scroll.min.js';
 
 jQuery(document).ready( function($) {
 
+	//Google Analytics
+
 	window.dataLayer = window.dataLayer || [];
 	function gtag(){dataLayer.push(arguments);}
 	gtag('js', new Date());
 
 	gtag('config', 'UA-126194309-1');
 
+
+	//Google Maps
 
 	// Initialize and add the map
 	function initMap() {
