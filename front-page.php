@@ -1,8 +1,8 @@
 <?php get_header(); ?>
 
 	<!-- Hero -->
-	<!-- Parallax: <section class="hero-fp parallax-window" data-parallax="scroll" data-image-src="/wp-content/themes/dev21/assets/images/banner-1.svg" -->
-	<section class="hero-fp">
+	<!-- Parallax: <section class="hero-fp parallax-window" data-parallax="scroll" data-image-src="/wp-content/themes/dev21/assets/images/banner-1.svg"> -->
+	<div class="hero-fp">
 		<div class="country">
 			<div class="row">
 				<div class="col-md-12">
@@ -20,7 +20,7 @@
 				</div>
 			</div>
 		</div>
-	</section>
+	</div>
 
 	<!-- Dev21 -->
 	<div id="dev21" class="dev21">
@@ -101,17 +101,15 @@
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
-					<img class="img-fluid" src="<?php echo get_bloginfo('template_url') ?>/assets/images/banner.svg" alt="placeholder de imagen">
-					<img class="img-fluid" src="<?php echo get_bloginfo('template_url') ?>/assets/images/banner.svg" alt="placeholder de imagen">
+					<img class="img-fluid" src="<?php echo get_bloginfo('template_url') ?>/assets/images/yagan-2.png" alt="placeholder de imagen">
 				</div>
 
 				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-					<img class="img-fluid" src="<?php echo get_bloginfo('template_url') ?>/assets/images/banner.svg" alt="placeholder de imagen">
+					<img class="img-fluid" src="<?php echo get_bloginfo('template_url') ?>/assets/images/yagan-5.png" alt="placeholder de imagen">
 				</div>
 
 				<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
-					<img class="img-fluid" src="<?php echo get_bloginfo('template_url') ?>/assets/images/banner.svg" alt="placeholder de imagen">
-					<img class="img-fluid" src="<?php echo get_bloginfo('template_url') ?>/assets/images/banner.svg" alt="placeholder de imagen">
+					<img class="img-fluid" src="<?php echo get_bloginfo('template_url') ?>/assets/images/yagan-4.png" alt="placeholder de imagen">
 				</div>
 			</div>
 		</div>

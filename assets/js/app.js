@@ -145,13 +145,6 @@ jQuery(document).ready(function ($) {
 		};
 		new AnimateScroll('#servicios-fp', options);
 	});
-
-	// jQuery Plugin Parallax
-
-	/*$('.parallax-window').parallax({
- 	speed: .3,
-  	
-  	});*/
 });
 
 /***/ }),

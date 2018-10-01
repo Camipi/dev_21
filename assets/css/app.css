@@ -10573,11 +10573,6 @@ header .nav a i {
   margin-left: 48vh;
 }
 
-.parallax-window {
-  height: auto;
-  background: transparent;
-}
-
 /* DEV21*/
 
 .dev21 {
@@ -11366,6 +11361,10 @@ header .nav a i {
 
 /* Proyectos*/
 
+.proyectos-port {
+  margin-top: 10vh;
+}
+
 .proyectos-port a {
   color: #2b4690;
 }
@@ -11380,7 +11379,7 @@ header .nav a i {
 }
 
 .gal-img-1 {
-  margin-bottom: 20vh;
+  margin-bottom: 5vh;
 }
 
 .gal-img-2 {
@@ -11393,6 +11392,15 @@ header .nav a i {
 
 .port-separador {
   margin-bottom: 10vh;
+}
+
+.logo-proyecto {
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+}
+
+.portada-proyecto {
+  margin-bottom: 5vh;
 }
 
 /* Media Queries*/
@@ -11545,6 +11553,10 @@ header .nav a i {
 
 .hero-blog p {
   text-align: left;
+}
+
+.noti_reciente-1 {
+  margin-bottom: 2vh;
 }
 
 /* Noticias*/

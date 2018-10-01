@@ -75,11 +75,5 @@ jQuery(document).ready( function($) {
 
 
 
-	// jQuery Plugin Parallax
-
-	/*$('.parallax-window').parallax({
-		speed: .3,
-  	
-  	});*/
 
 });
