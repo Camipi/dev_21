@@ -1,77 +1,259 @@
-# Wordpress Boilerplate
+# Dev_21 #
 
-## Introducción
-Esta es una plantilla básica, que tiene como objetivo ayudar a la gente que comienza recién a crear plantillas para Wordpress. Incorpora algunas de las últimas tecnologías implementadas por el equipo de Wordpress y también otras que le entregarán a los desarrolladores una base mínima para crear exitosamente un Theme.
-
-### Uso de Paginación
-En la versión 1.1 se ha agregado la posibilidad de agregar paginación, para esos casos donde se desea mostrar más de los 10 posts que muestra por defecto Wordpress.
-
-Para utilizar la paginación debemos llamar a la función `the_pagination()`. Y en el caso de utilizar la paginación en un Custom Post Type, deberemos entregar como parámetro el resultado de la búsqueda, así como se especifica en el siguiente código.
-
-~~~html
-<?php
-	$arg = array(
-		'post_type'		 => 'custom_post_name',
-		'paged'			 => $paged
-	);
-	
-	$get_arg = new WP_Query( $arg );
-	
-	while ( $get_arg->have_posts() ) {
-		$get_arg->the_post();
-	?>
-		
-		<!-- Aquí agregar contenido a mostrar por el loop -->
-	
-	<?php } 
-?>
-
-<?php the_pagination( $get_arg ); ?>
+## Perfil del cliente ##
+La empresa de soluciones tecnológicas llamada Dev_21 pide crear una página web, donde se muestren los servicios que ofrecen, así como también,los productos que han desarrollado para sus clientes.
 
 
-~~~
+## Requerimientos del cliente: ##
 
-Además es importante que dentro de los parámetros de búsqueda sea incorporado el key `paged` junto con el valor `$paged`, para que nuestra paginación pueda funcionar correctamente.
+* Debe tener un home y 3 páginas internas.
+	*Servicios
+	*Portafolio
+	*Blog
 
-### Uso de Flickity
-En la versión 1.3.0 se ha agregado [Flickity](https://github.com/metafizzy/flickity/) como opción a Flexslider. Un versátil plugin de Javascript que contiene menos errores que el anterior, se encuentra más actualizado y además con más opciones de visualización. Para obtener información de cómo implementar Flickity, por favor revisar la [documentación](https://flickity.metafizzy.co) correspondiente.
+* Debe ser responsiva.
 
-### Archivo de opciones
-En la versión 1.4.3 se creó la variable `$theme_options` que contendrá todas las configuraciones necesarias para el theme. Dentro de los parámetros que contiene se encuentran opciones para saber si WooCommerce esta activo, obtener accesos a las carpetas de funciones y el key slider contiene dos nuevos parámetros. Estos permiten a través de un valor booleano activar o desactivar cada uno de los sliders disponibles en la plantilla.
 
-# Base para trabajar con SASS, ES6 y mucho más. 
-[Laravel Mix](https://github.com/JeffreyWay/laravel-mix) nos permite trabajar con estás tecnologías y muchas más de manera simple y prácticamente sin configuración.
+## Requerimientos generales ##
 
-### Requisitos
-Para trabajar con laravel mix, es necesario tener instalado [Node.js y NPM](https://nodejs.org/en/)
-Puedes verificar si tienes instalado npm ejecutando este comando: 
-```bash
-npm -v
-```
-Lo que debiese retorar algo como `6.1.0`
+	- Una pagina web tipo landing page que contiene:
+		- 1 barra de navegación 
+		- 1 footer
+		- 4 secciones
+			§ 1ra sección: Es el header.
+			§ 2da sección: Dev_21, información sobre la empresa
+			§ 3ra sección: Servicios, introducción sobre los servicios ofrecidos en la empresa
+			§ 4ta sección: Portafolio, portada de los productos realizados por la empresa
+			§ 5ta sección: Contacto, información sobre correo de contacto, ubicación de oficinas y teléfonos de contacto
+			§ 6ta sección: COtización, invitación al usuario a cotizar los productos ofrecidos por la empresa a través de un   formulario
 
-## Instalación
-Bajar el repositorio e instalar laravel mix usando npm 
-```bash
-git clone https://github.com/gonzunigad/laravel-mix-desafiolatam-wordpress mi-tema
-cd mi-tema
-npm install
-```
-Eso es todo. De ahora en adelante, ya puedes compilar tus assets. 
-Recuerda que `npm install` puede demorar bastante en terminar y arrojar algunas advertencias. Es normal, no te preocupes.
+	- 3 páginas internas:
+		- Página de servicios, debe contener:
+			§ Introdcucción a los servicios que ofrece la empresa
+			§ Explicar los 6 servicios que ofrece la empres
+			§ Sección que invite al usuario a cotizar los servicios de la empresa
 
-Luego, solo debes ejecutar este comando para compilar
-```bash
-npm run dev
-```
-Si quieres que adicionalmente todo se minifique puedes correr: 
-```bash
-npm run production
-```
+		- Página de portafolio, debe contener:
+			§ Introdcucción a los servicios que ofrece la empresa
+			§ Portada de proyecto a mostrar( nombre del proyecto, nombre y logo del cliente)
+			§ Invitación al usuario a cotizar los servicios de la empresa
 
-### Watch (compilar automáticamente al guardar)
-Para que laravel mix compile automáticamente cuando realizas un cambio en el SASS, puedes correr este comando: 
-```bash
-npm run watch
-```
+		- Página de blog, debe contener:
+			§ Portada con las noticias mas recientes
+			§ Noticias: 
+				•Portada de la noticia
+				•Titulo
+				•Fecha
+				•Introdcucción de la noticia
+				•Botón Ver más
+				•Tags
+				•Autor
+
+
+## Requerimientos específicos ##
+
+		- Desarrollarse en Wordpress(utilizar wp_boilerplate para la construcción de la plantilla)
+		- Integrar Google Analytics
+		- Integrar Google Maps
+		- Secciones con grilla
+		- Usar bootstrap
+
+
+## Requisitos técnicos ##
+
+* Debe desarrollarse en Wordpress
+  Por lo que se deberá utilizar wp_boilerplate para la construcción de la plantilla.
+
+* Debe integrar google analytics
+
+* Debe integrar google maps
+
+
+## Requerimientos visuales ##
+
+- Layout
+		- Utilizar bootstrap
+	- Fuentes (Google Fonts)
+
+
+		- Titulos: Maven Pro Bold / Heavy
+		- Parrafos: Maven Pro Regular
+		- Textos secundarios: Maven Pro Medio
+	- Colores
+		- Tipografia: 
+			§ #58595B para textos de párrafos sobre fondo blanco y gris pálido.
+			§ #2B4690 para textos de títulos
+			§ #14264D para textos de títulos secundarios
+		- Fondos:
+			§ Barra de navegación: #FFFFFF
+			§ Footer: #14264D
+			§ Header: Imagen
+	- Imágenes:
+		- Entregadas por el cliente, en la guía de estilos proporcionada por el diseñador.
+	- Iconos:
+		- Íconos de FontAwesome
+
+
+## Wireframes para desktop y mobile ##
+
+Ejemplo para colocar las imágenes:
+![Wireframe](assets/img/sketch.jpg?raw=true "Desktop")
+
+![Wireframe](assets/img/mobile.jpg?raw=true "Mobile")
+
+
+## HTML/CSS ##
+
+*Index*
+
+.hero-fp
+.country
+
+.dev21
+.dev21-par1
+.dev21-par2
+.dev21-fp
+
+.servicios-fp
+.serv-sub
+
+.portafolio-fp
+
+.contacto
+.cont-sub
+
+*Servicios*
+
+.hero-serv
+
+.servicios-serv
+
+*Portafolio*
+
+.hero-port
+
+.proyectos-port
+
+*Blog*
+
+.hero-blog
+
+.noticias-blog
+.noticia-blog
+.noti-titulo
+.noti-fecha
+.noti-text
+.izq
+
+
+### Link to GitHub ###
+https://github.com/Camipi/dev_21
+
+
+## Directorio ##
+
+dev_21(carpeta raíz)
+|
+|__ wordpress 
+				|__wp-admin  
+				|				|__css
+				|				|
+				|				|__images
+				|				|
+				|				|__includes
+				|				|
+				|				|__js
+				|				|
+				|				|__maint
+				|
+				|	
+				|__wp-content
+				|				|
+				|				|__languages
+				|				|
+				|				|__plugins
+				|				|
+				|				|__uploads
+				|				|
+				|				|__upgrade
+				|				|
+				|				|___themes
+				|							|__dev21 
+				|										|__ _includes
+				|										|
+				|										|__assets
+				|										|
+				|										|__functions
+				|										|
+				|										|__src
+				|										|
+				|										|__woocommerce
+				|										|
+				|										|__node_modules	
+				|
+				|
+				|__wp-includes
+								|__certificates
+								|
+								|__css
+								|
+								|__customize
+								|
+								|__fonts
+								| 
+								|__ID3
+								|
+								|__images
+								|
+								|__IXR
+								|
+								|__js
+								|
+								|__pomo
+								|
+								|__random_compat
+								|
+								|__Requests
+								|
+								|__rest-api
+								|
+								|__SimplePie
+								|
+								|__Text
+								|
+								|__theme-compat
+								|
+								|__widgets
+
+
+
+
+## Usuario y contraseña de Wordpress ##
+
+* Usuario:
+  dev21
+
+* Clave:
+  eAN3mVTdX*Nt6H5DIq
+
+
+
+## Instrucciones de despliegue ##
+
+* Descargar o clonar el repositorio de github
+ * https://github.com/Camipi/dev_21
+
+* Descargar MAMP
+ * Ir a http://localhost:8888/phpMyAdmin/
+ * Importar la base de datos del proyecto (Ubicada en la carpeta raíz del proyecto)
+ * Ir a http://localhost:8888/wp-myadmin
+ * Iniciar sesión
+
+
+
+
+
+
+
+
 

@@ -1,4 +1,4 @@
-<?php get_header() ?>
+<!-- <?php get_header() ?> -->
 
 <!-- Hero -->
 	<section class="hero-blog">
@@ -9,25 +9,25 @@
 				</div>
 
 				<div class="col-xs-12 col-sm-12 col-md-7 col-lg-7">
-					<h5><strong>Noticias más recientes</strong></h5>
+					<h4><strong>Noticias más recientes</strong></h4>
 
 					<div class="row noti_reciente-1">
-						<div class="col-md-5">
+						<div class="col-md-6">
+							<img class="img-fluid" src="<?php echo get_bloginfo('template_url') ?>/assets/images/facebook.jpg" alt="icono de servicio">
+						</div>
+						<div class="col-md-6">
 							<h6>Un ciberataque a Facebook deja expuestas casi 50 millones de cuentas</h6>
 							<p>Casi 50 millones de cuentas de Facebook quedaron expuestas a ...</p>
-						</div>
-						<div class="col-md-7">
-							<img class="img-fluid" src="<?php echo get_bloginfo('template_url') ?>/assets/images/facebook.jpg" alt="icono de servicio">
 						</div>
 					</div>
 
 					<div class="row">
-						<div class="col-md-5">
+						<div class="col-md-6">
+							<img class="img-fluid" src="<?php echo get_bloginfo('template_url') ?>/assets/images/Apple_I_Computer.jpg" alt="icono de servicio">
+						</div>
+						<div class="col-md-6">
 							<h6>Apple-I: cómo era el primer modelo de computadora fabricado por Apple (que acaba de venderse por US$375.000)</h6>
 							<p>Fue fabricada en 1976 y es una de las pocas unidades funcionales de esa época que quedan en el mundo... </p>
-						</div>
-						<div class="col-md-7">
-							<img class="img-fluid" src="<?php echo get_bloginfo('template_url') ?>/assets/images/Apple_I_Computer.jpg" alt="icono de servicio">
 						</div>
 					</div>
 
@@ -58,6 +58,7 @@
 						El equipo técnico de la red social dijo que trabaja para determinar "si estas cuentas se usaron incorrectamente o si se accedió a la información" de sus usuarios, según un comunicado.
 						El cofundador de la red social Mark Zuckerberg explicó que tras una primera revisión "no hay ninguna evidencia que sugiera que estas cuentas han sido comprometidas"
 						</p>
+						<button><i class="far fa-arrow-alt-circle-right"></i> Leer más</button>
 						<div class="row">
 							<div class="col-md-8">
 								<p><strong>Tags:</strong> Tecnología / Facebook / Internet</p>
@@ -94,6 +95,7 @@
 
 						Se estima que Wozniak y Jobs vendieron unas 200 computadoras Apple-I en menos de un año, gracias a un acuerdo con una tienda de computadoras en Palo Alto, California, Estados Unidos.
 						</p>
+						<button><i class="far fa-arrow-alt-circle-right"></i> Leer más</button>
 						<div class="row">
 							<div class="col-md-8"> Tecnología / Computación / Apple</p>
 							</div>
@@ -126,6 +128,7 @@
 
 						Los diccionarios no tardarán en desaparecer. Una encuesta reciente del British Council, en Reino Unido, encontró que cerca de dos tercios de los jóvenes entre 16 y 34 años usan aplicaciones de traducción para aprender idiomas y comprender la jerga local.
 						</p>
+						<button><i class="far fa-arrow-alt-circle-right"></i> Leer más</button>
 						<div class="row">
 							<div class="col-md-8">
 								<p><strong>Tags:</strong> Tecnología / Idiomas / Inteligencia artificial</p>

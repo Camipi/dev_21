@@ -11205,7 +11205,7 @@ header .nav a i {
   background-color: #2B4690;
   color: #fff;
   font-weight: 700;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 /*Media Queries*/
@@ -11541,10 +11541,10 @@ header .nav a i {
   font-size: 4rem;
 }
 
-.hero-blog h5 {
-  padding-top: 8vh;
+.hero-blog h4 {
+  padding-top: 10vh;
   color: #2b4690;
-  margin-bottom: 5vh;
+  margin-bottom: 2vh;
 }
 
 .hero-blog h6 {
@@ -11618,6 +11618,16 @@ hr {
 
 .noti-fecha {
   margin-top: 5vh;
+}
+
+.noticias-blog button {
+  margin-top: 2vh;
+  margin-bottom: 3vh;
+  width: 100%;
+  border-radius: 5px;
+  background-color: #2B4690;
+  color: #fff;
+  padding: 1vh;
 }
 
 /* Media Queries*/
