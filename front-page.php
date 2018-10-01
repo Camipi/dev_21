@@ -1,7 +1,6 @@
 <?php get_header(); ?>
 
 	<!-- Hero -->
-	<!-- Parallax: <section class="hero-fp parallax-window" data-parallax="scroll" data-image-src="/wp-content/themes/dev21/assets/images/banner-1.svg"> -->
 	<div class="hero-fp">
 		<div class="country">
 			<div class="row">

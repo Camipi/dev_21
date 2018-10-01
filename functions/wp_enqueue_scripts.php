@@ -30,6 +30,7 @@ function dl_enqueue_scripts() {
 
 
 
+
 	if ($theme_options['woocommerce_enabled'] || $theme_options['slider']['flexslider'] || $theme_options['slider']['flickity']) {
 
 		wp_register_script('jquery', get_theme_file_uri('/assets/js/lib/jquery.min.js'), null, '3.3.1', true);
@@ -49,6 +50,7 @@ function dl_enqueue_scripts() {
 
 	wp_enqueue_script( 'main_js' );
 	wp_enqueue_script( 'scrollxy' );
+	
 
 
 }

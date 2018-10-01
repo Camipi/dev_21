@@ -1,4 +1,5 @@
 import 'js-animate-scroll/dist/animate-scroll.min.js';
+import '@fancyapps/fancybox/dist/jquery.fancybox.min.js';
 
 jQuery(document).ready( function($) {
 

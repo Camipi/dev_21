@@ -11566,6 +11566,14 @@ header .nav a i {
   color: #2b4690;
 }
 
+.noticias-blog h3 a {
+  color: #2b4690;
+}
+
+.noticias-blog h3 a:link {
+  text-decoration: none;
+}
+
 .izq {
   text-align: right;
 }
