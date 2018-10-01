@@ -13,9 +13,7 @@
 					<h1><strong>Nuestro<br> Portafolio</strong></h1>
 				</div>
 				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation. 
+					<p>Nuestro portafolio incluye servicios completos desde la externalización de áreas de TI, servicios de soporte y consultoría, procesos de TI, construcción o integración de soluciones de software y hasta la administración de infraestructuras, aplicaciones y servicios asociados.
 					</p>
 				</div>
 			</div>

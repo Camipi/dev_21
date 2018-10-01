@@ -15,7 +15,7 @@
 			<div class="container">
 				<div class="col-md-12">
 					<h1><strong>Bienvenido a<br> Dev_21</strong></h1>
-					<h2>Lorem Ipsum is simply<br> dummy text of the<br> printing.</h2>
+					<h2>Somos servicios integrales orientados  <br> a nuestros clientes.<br></h2>
 					<p><a class="circulo"><i class="far fa-arrow-alt-circle-down"></i></a></p>
 				</div>
 			</div>
@@ -26,11 +26,11 @@
 	<div id="dev21" class="dev21">
 		<div class="container">
 			<h1>Dev_21</h1>
-			<p class="dev21-par1">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+			<p class="dev21-par1">Los desafíos se presentan día a día y las áreas de tecnología son piezas fundamentales <br>para resolver todas las necesidades. </p>
 			<div class="row">
 				<div class="col-md-2"></div>
 				<div class="col-md-8">
-					<p class="dev21-par2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+					<p class="dev21-par2">Somos una empresa de servicios de tecnología de información que brinda un apoyo constante a los procesos críticos del negocio de nuestros clientes. Estamos comprometidos con la calidad de nuestros servicios y contamos con la capacidad técnica y humana para integrar sistemas tecnológicos de alto valor agregado que permitan a nuestros clientes aumentar la productividad de sus negocios.</p>
 				</div>
 				<div class="col-md-2"></div>
 			</div>
@@ -45,25 +45,25 @@
 	<!-- Servicios -->
 	<div id="servicios-fp" class="servicios-fp">
 		<h2>Servicios</h2>
-		<p class="serv-sub">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+		<p class="serv-sub">Servicios que dan solución con valor</p>
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
 					<img class="img-fluid" src="<?php echo get_bloginfo('template_url') ?>/assets/images/icon1.svg" alt="icono de servicio">
-					<h4>SERVICIO</h4>
-					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+					<h6>SOFTWARE A MEDIDA</h6>
+					<p>Herramientas amigables y de fácil uso para visibilizar y automatizar los procesos de negocio.</p>
 				</div>
 				
 				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
 					<img class="img-fluid" src="<?php echo get_bloginfo('template_url') ?>/assets/images/icon2.svg" alt="icono de servicio">
-					<h4>SERVICIO</h4>
-					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+					<h6>SOLUCIONES TECNOLÓGICAS</h6>
+					<p>Analizamos sus necesidades y diseñamos y desarrollamos una solución adaptada a sus necesidades.</p>
 				</div>
 				
 				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
 					<img class="img-fluid" src="<?php echo get_bloginfo('template_url') ?>/assets/images/icon3.svg" alt="icono de servicio">
-					<h4>SERVICIO</h4>
-					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+					<h6>APLICACIONES MÓVILES</h6>
+					<p>Amplían y mejoran los canales de comunicación con los clientes.</p>
 				</div>
 			</div>
 
@@ -72,20 +72,20 @@
 			<div class="row">
 				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
 					<img class="img-fluid" src="<?php echo get_bloginfo('template_url') ?>/assets/images/icon1.svg" alt="icono de servicio">
-					<h4>SERVICIO</h4>
-					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+					<h6>DISEÑO UI / UX</h6>
+					<p>Nos encargamos de la creatividad y usabilidad de tu proyecto.</p>
 				</div>
 
 				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
 					<img class="img-fluid" src="<?php echo get_bloginfo('template_url') ?>/assets/images/icon2.svg" alt="icono de servicio">
-					<h4>SERVICIO</h4>
-					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+					<h6>INTEGRACIONES DE SISTEMAS</h6>
+					<p>Posibilitan la gestión coordinada en tiempo real de distintas áreas de un negocio.</p>
 				</div>
 
 				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
 					<img class="img-fluid" src="<?php echo get_bloginfo('template_url') ?>/assets/images/icon3.svg" alt="icono de servicio">
-					<h4>SERVICIO</h4>
-					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+					<h6>CONSULTORÍA INFORMÁTICA</h6>
+					<p>Brindamos consultoría especializada en amplios temas de TI.</p>
 				</div>
 			</div>
 		</div>
@@ -97,7 +97,7 @@
 	<!-- Portafolio -->
 	<div id="portafolio-fp" class="portafolio-fp">
 		<h2>Portafolio</h2>
-		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+		<p>Somos tu partner de Innovación y Tecnología, especialistas en el diseño de proyectos de desarrollo software a medida.</p>
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
@@ -118,7 +118,7 @@
 	<!-- Contacto-->
 	<div id="contacto" class="contacto">
 		<h2>Contacto</h2>
-		<p class="cont-sub">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+		<p class="cont-sub">Si tienes un proyecto para tu empresa, cuéntanos y te contactaremos.</p>
 		<div id="map"></div>
 
 		<div class="container">
@@ -149,7 +149,7 @@
 				<div class="row">
 					<div class="col-xs-12 col-sm-12 col-md-5 col-lg-5">
 						<h4>Pide tu cotización</h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta voluptatem, tenetur eum tempore minus libero voluptates eos doloremque.</p>
+						<p>Con uno de nuestros asesores especializados y soluciona todas tus necesidades de tecnología para optimizar el rendimiento, las operaciones y las comunicaciones de tu empresa.</p>
 					</div>
 
 					<div class="col-xs-12 col-sm-12 col-md-7 col-lg-7">

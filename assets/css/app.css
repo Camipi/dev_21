@@ -10549,7 +10549,7 @@ header .nav a i {
 }
 
 .hero-fp h2 {
-  margin-left: 80vh;
+  margin-left: 85vh;
   padding-top: 5vh;
   text-align: left;
 }
@@ -10619,7 +10619,7 @@ header .nav a i {
   margin-bottom: 15vh;
 }
 
-.servicios-fp h4 {
+.servicios-fp h6 {
   text-align: center;
   color: #14264D;
 }
@@ -11349,7 +11349,7 @@ header .nav a i {
 }
 
 .hero-port p {
-  margin-top: 40vh;
+  margin-top: 36vh;
 }
 
 .hero-port i {
@@ -11395,8 +11395,9 @@ header .nav a i {
 }
 
 .logo-proyecto {
-  padding-top: 3vh;
-  padding-bottom: 3vh;
+  padding-top: 8vh;
+  padding-bottom: 8vh;
+  padding-left: 8vh;
 }
 
 .portada-proyecto {
