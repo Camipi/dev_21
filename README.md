@@ -59,16 +59,6 @@ La empresa de soluciones tecnológicas llamada Dev_21 pide crear una página web
 		- Usar bootstrap
 
 
-## Requisitos técnicos ##
-
-* Debe desarrollarse en Wordpress
-  Por lo que se deberá utilizar wp_boilerplate para la construcción de la plantilla.
-
-* Debe integrar google analytics
-
-* Debe integrar google maps
-
-
 ## Requerimientos visuales ##
 
 - Layout
@@ -103,7 +93,7 @@ La empresa de soluciones tecnológicas llamada Dev_21 pide crear una página web
 
 ## HTML/CSS ##
 
-*Index*
+_Index_
 
 .hero-fp
 .country
@@ -121,19 +111,19 @@ La empresa de soluciones tecnológicas llamada Dev_21 pide crear una página web
 .contacto
 .cont-sub
 
-*Servicios*
+_Servicios_
 
 .hero-serv
 
 .servicios-serv
 
-*Portafolio*
+_Portafolio_
 
 .hero-port
 
 .proyectos-port
 
-*Blog*
+_Blog_
 
 .hero-blog
 

@@ -73,7 +73,7 @@
 					<img class="img-fluid" src="<?php echo get_bloginfo('template_url') ?>/assets/images/Apple_I_Computer.jpg" alt="icono de servicio">
 					<hr/>
 					<h6>Los errores más vergonzosos de las aplicaciones de traducción (y cómo pretenden solucionarlos)</h6>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti a tempora ratione ipsum unde.</p>
+					<p>Fue fabricada en 1976 y es una de las pocas unidades funcionales de esa época que quedan en el mundo...</p>
 					<img class="img-fluid" src="<?php echo get_bloginfo('template_url') ?>/assets/images/traductor.jpg" alt="icono de servicio">
 				</div>
 			</div>

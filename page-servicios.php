@@ -17,14 +17,14 @@
 	<div class="servicios-serv">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-2"></div>
-				<div class="col-md-8">
+				<div class="col-md-3"></div>
+				<div class="col-md-6">
 					<p id="serv-sub">Soluciones informáticas y tecnológicas para empresas y profesionales. Ofrecemos un amplio catálogo de soluciones y productos.
 
 					Cada empresa presenta problemas o necesidades influidas por el entorno en el que trabaja. Dev21 proporciona soluciones particularizadas a esas necesidades tras el análisis de la situación, implementando mejoras que optimizan el rendimiento global del cliente.
 					</p>
 				</div>
-				<div class="col-md-2"></div>
+				<div class="col-md-3"></div>
 			</div>
 		</div>
 
@@ -53,7 +53,7 @@
 				</div>
 
 				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-					<img class="img-fluid" src="<?php echo get_bloginfo('template_url') ?>/assets/images/icon1.svg" alt="icono de servicio">
+					<img class="img-fluid" src="<?php echo get_bloginfo('template_url') ?>/assets/images/icon4.svg" alt="icono de servicio">
 					<h4>DISEÑO UI / UX</h4>
 					<p>Nos encargamos de la creatividad y usabilidad de tu proyecto a través de un enfoque que fusiona el diseño, el arte, la publicidad y la tecnología, ofreciendo estrategias comunicativas en multiformatos digitales y offline.</p>
 				</div>
@@ -63,13 +63,13 @@
 			
 			<div class="row">
 				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-					<img class="img-fluid" src="<?php echo get_bloginfo('template_url') ?>/assets/images/icon2.svg" alt="icono de servicio">
+					<img class="img-fluid" src="<?php echo get_bloginfo('template_url') ?>/assets/images/icon5.svg" alt="icono de servicio">
 					<h4>INTEGRACIONES DE SISTEMAS</h4>
 					<p>Posibilitan la gestión coordinada en tiempo real de distintas áreas de un negocio, integrando distintas tecnologías para optimizar la gestión y la inversión en los procesos.</p>
 				</div>
 
 				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-					<img class="img-fluid" src="<?php echo get_bloginfo('template_url') ?>/assets/images/icon3.svg" alt="icono de servicio">
+					<img class="img-fluid" src="<?php echo get_bloginfo('template_url') ?>/assets/images/icon6.svg" alt="icono de servicio">
 					<h4>CONSULTORÍA INFORMÁTICA</h4>
 					<p>Brindamos consultoría especializada en amplios temas de TI, basados en las buenas practicas de la Industria y con profesionales altamente capacitados.</p>
 				</div>

@@ -10607,8 +10607,8 @@ header .nav a i {
 /* Servicios*/
 
 .servicios-fp {
-  padding-top: 20vh;
-  padding-bottom: 20vh;
+  padding-top: 15vh;
+  padding-bottom: 15vh;
   margin-top: 20vh;
   margin-bottom: 0;
   background-color: #F9F9F9;
@@ -10649,7 +10649,7 @@ header .nav a i {
 /* Portafolio*/
 
 .portafolio-fp {
-  margin-bottom: 15vh;
+  margin-bottom: 30vh;
 }
 
 .portafolio-fp p {
@@ -11534,6 +11534,7 @@ header .nav a i {
   width: 100%;
   height: auto;
   margin-top: 20vh;
+  margin-bottom: 3vh;
 }
 
 .hero h1 {
@@ -11544,7 +11545,6 @@ header .nav a i {
 .hero h5 {
   padding-top: 8vh;
   color: #2b4690;
-  margin-bottom: 5vh;
 }
 
 .hero h6 {
@@ -11694,6 +11694,14 @@ hr {
   background-color: #2B4690;
   color: #fff;
   padding: 1vh;
+}
+
+.noticias-blog button a {
+  color: #fff;
+}
+
+.noticias-blog button a:link {
+  text-decoration: none;
 }
 
 /* Media Queries*/

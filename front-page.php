@@ -70,19 +70,19 @@
 
 			<div class="row">
 				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-					<img class="img-fluid" src="<?php echo get_bloginfo('template_url') ?>/assets/images/icon1.svg" alt="icono de servicio">
+					<img class="img-fluid" src="<?php echo get_bloginfo('template_url') ?>/assets/images/icon4.svg" alt="icono de servicio">
 					<h6>DISEÑO UI / UX</h6>
 					<p>Nos encargamos de la creatividad y usabilidad de tu proyecto.</p>
 				</div>
 
 				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-					<img class="img-fluid" src="<?php echo get_bloginfo('template_url') ?>/assets/images/icon2.svg" alt="icono de servicio">
+					<img class="img-fluid" src="<?php echo get_bloginfo('template_url') ?>/assets/images/icon5.svg" alt="icono de servicio">
 					<h6>INTEGRACIONES DE SISTEMAS</h6>
 					<p>Posibilitan la gestión coordinada en tiempo real de distintas áreas de un negocio.</p>
 				</div>
 
 				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-					<img class="img-fluid" src="<?php echo get_bloginfo('template_url') ?>/assets/images/icon3.svg" alt="icono de servicio">
+					<img class="img-fluid" src="<?php echo get_bloginfo('template_url') ?>/assets/images/icon6.svg" alt="icono de servicio">
 					<h6>CONSULTORÍA INFORMÁTICA</h6>
 					<p>Brindamos consultoría especializada en amplios temas de TI.</p>
 				</div>

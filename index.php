@@ -7,6 +7,8 @@
 		<div class="row">
 			<div class="col-xs-12 col-sm-12 col-md-5 col-lg-5">
 				<h1><strong>Dev_21<br>Noticias</strong></h1>
+				<h5>No documentes el problema, arréglalo.</h5>
+				<p>Atli Björgvin Oddsson – programador</p>
 			</div>
 
 			<div class="col-xs-12 col-sm-12 col-md-7 col-lg-7">
@@ -84,7 +86,7 @@
 						</div>				
 					</div>
 				</div>
-				<hr/>
+
 			</div>
 
 

@@ -18,22 +18,22 @@
 	<section class="hero">
 		<div class="container">
 			<div class="row">
-				<div class="col-xs-12 col-sm-12 col-md-5 col-lg-5">
+				<div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
 					<h1><strong><?php the_title() ?></strong></h1>
+					<p><strong>Tags:</strong> Chile / Turismo / Experiencias</p>
 				</div>
 
-				<div class="col-xs-12 col-sm-12 col-md-7 col-lg-7">
+				<!-- <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
 					<div class="row">
-						<div class="col-md-5">
+						<div class="col-md-4">
 							<img class="img-fluid" src="<?php echo get_bloginfo('template_url') ?>/assets/images/yagan-8.png" alt="icono de servicio">
-							
 						</div>
-						<div class="col-md-7">
+						<div class="col-md-8">
 							<h5><strong>Otros proyectos</strong></h5>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti a tempora ratione ipsum unde.</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 						</div>
 					</div>
-				</div>
+				</div> -->
 			</div>
 		</div>
 	</section>
@@ -45,7 +45,6 @@
 			<div class="proyecto">
 				<div class="row">
 					<div class="col-md-12">
-						<p><strong>Tags:</strong> Chile / Turismo / Experiencias</p>
 						<img class="img-fluid portada-proyecto" src="<?php echo get_bloginfo('template_url') ?>/assets/images/yagan-1.png" alt="icono de servicio">			
 					</div>
 				</div>

@@ -144,7 +144,7 @@ jQuery(document).ready(function ($) {
 		var options = {
 			duration: 600,
 			easing: 'easeInOutQuad',
-			padding: 50,
+			padding: 30,
 			align: 'top',
 			onFinish: function onFinish() {}
 		};

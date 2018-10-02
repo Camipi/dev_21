@@ -1,5 +1,5 @@
 <?php get_header() ?>
-	<<!-- ?php the_post() ?>
+	<!-- ?php the_post() ?>
 	
 	<?php the_post_thumbnail() ?>
 	<?php the_title() ?>
@@ -48,7 +48,16 @@
 					<img class="img-fluid portada-proyecto" src="<?php echo get_bloginfo('template_url') ?>/assets/images/yagan-1.png" alt="icono de servicio">
 				</div>
 			</div>
+
 			<div class="gal-img-1">
+				<div class="row">
+					<div class="col-md-12">
+						<img class="img-fluid" src="<?php echo get_bloginfo('template_url') ?>/assets/images/yagan-6.png" alt="icono de servicio">
+					</div>
+				</div>
+			</div>
+
+			<div class="gal-img-2">
 				<div class="row">
 					<div class="col-md-3">
 						<img class="img-fluid" src="<?php echo get_bloginfo('template_url') ?>/assets/images/yagan-2.png" alt="icono de servicio">
@@ -61,13 +70,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="gal-img-2">
-				<div class="row">
-					<div class="col-md-12">
-						<img class="img-fluid" src="<?php echo get_bloginfo('template_url') ?>/assets/images/yagan-6.png" alt="icono de servicio">
-					</div>
-				</div>
-			</div>
+			
 			<!-- <hr class="port-separador"/>
 			<div class="row">
 				<div class="col-md-8">
