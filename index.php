@@ -73,13 +73,13 @@
 						El equipo técnico de la red social dijo que trabaja para determinar "si estas cuentas se usaron incorrectamente o si se accedió a la información" de sus usuarios, según un comunicado.
 						El cofundador de la red social Mark Zuckerberg explicó que tras una primera revisión "no hay ninguna evidencia que sugiera que estas cuentas han sido comprometidas"
 						</p>
-						<button><i class="far fa-arrow-alt-circle-right"></i> Leer más</button>
+						<button><a href="<?php the_permalink() ?>"><i class="far fa-arrow-alt-circle-right"></i> Leer más</a></button>
 						<div class="row">
 							<div class="col-md-8">
 								<p><strong>Tags:</strong> Tecnología / Facebook / Internet</p>
 							</div>
 							<div class="col-md-4">
-								<p class="izq"><strong>Autor:</strong> FBBC News Mundo</p>
+								<p class="izq"><strong>Autor:</strong> BBC News Mundo</p>
 							</div>
 						</div>				
 					</div>

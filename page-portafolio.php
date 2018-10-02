@@ -25,8 +25,8 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-4">
-					<h5><a href="#"><i class="far fa-arrow-alt-circle-right"></i> Proyecto</a></h5>
-					<p><a href="http://yagan.world">yagan.world</a></p>
+					<h5><a href="<?php the_permalink() ?>"><i class="far fa-arrow-alt-circle-right"></i> Proyecto</a></h5>
+					<p><a href="http://yagan.world"><?php the_title() ?></a></p>
 					<h6>Cliente</h6>
 					<img class="img-fluid logo-proyecto" src="<?php echo get_bloginfo('template_url') ?>/assets/images/yagan.png" alt="icono de servicio">
 					<p>Descubre experiencias y vive tu propio Chile.</p>

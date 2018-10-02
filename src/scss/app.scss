@@ -24,10 +24,16 @@
 @import "proyectos-port";
 @import "media_queries-port";
 
+// Single-portfolio
+@import "single-portfolio";
+
 // Blog
 @import "hero-blog";
 @import "noticias-blog";
 @import "media_queries-blog";
+
+// Single-news
+@import "single-news";
 
 
 @import "lib/variables.scss";

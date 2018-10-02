@@ -1,0 +1,58 @@
+/* Hero*/
+
+.hero {
+	background-position: center;
+	width: 100%;
+	height: auto;
+	margin-top: 20vh;
+}
+
+.hero h1 {
+	padding-top: 8vh;
+	font-size: 4rem;
+}
+
+.hero h5 {
+	padding-top: 8vh;
+	color: #2b4690;
+	margin-bottom: 5vh;	
+}
+
+.hero h6 {
+	padding-top: 3vh;
+	color: #14264d;
+}
+
+.hero p {
+	text-align: left;
+}
+
+/* Proyecto*/
+
+.proyectos {
+	padding-top: 0;
+}
+
+
+/* Flechas*/
+
+.flechas-proyecto a {
+	color: #2b4690;
+	text-decoration: none;
+}
+
+.flechas-proyecto {
+	text-align: center;
+	font-size: 1.5rem;
+	color: #2b4690;
+	margin-top: 5vh;
+	margin-bottom: 20vh;
+}
+
+.flechas-proyecto .fa-arrow-alt-circle-left {
+	margin-top: 8vh;
+}
+
+.flechas-proyecto .fa-arrow-alt-circle-right {
+	margin-top: 8vh;
+}
