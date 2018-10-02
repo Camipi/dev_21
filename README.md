@@ -96,8 +96,7 @@ La empresa de soluciones tecnológicas llamada Dev_21 pide crear una página web
 
 ## Wireframes para desktop y mobile ##
 
-Ejemplo para colocar las imágenes:
-![Wireframe](assets/img/sketch.jpg?raw=true "Desktop")
+![Wireframe](assets/images/desktop.png?raw=true "Desktop")
 
 ![Wireframe](assets/img/mobile.jpg?raw=true "Mobile")
 
