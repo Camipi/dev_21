@@ -9,6 +9,14 @@
 				<h1><strong>Dev_21<br>Noticias</strong></h1>
 				<h5>No documentes el problema, arréglalo.</h5>
 				<p>Atli Björgvin Oddsson – programador</p>
+				<div class="menu">
+						<ul>
+							<li><a href="#"><i class="fas fa-caret-right"></i> Sobre Dev_21</a></li>
+							<li><a href="#"><i class="fas fa-caret-right"></i> Tecnología</a></li>
+							<li><a href="#"><i class="fas fa-caret-right"></i> Tendencias</a></li>
+							<li><a href="#"><i class="fas fa-caret-right"></i> Informática</a></li>
+						</ul>
+					</div>
 			</div>
 
 			<div class="col-xs-12 col-sm-12 col-md-7 col-lg-7">

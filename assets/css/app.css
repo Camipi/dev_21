@@ -11611,11 +11611,44 @@ header .nav a i {
 }
 
 .hero-blog p {
+  font-size: .8rem;
   text-align: left;
 }
 
 .noti_reciente-1 {
   margin-bottom: 2vh;
+}
+
+.hero-blog h5 {
+  color: #2b4690;
+  margin-top: 3vh;
+}
+
+/* Menu*/
+
+.menu {
+  margin-top: 5vh;
+  text-align: left;
+}
+
+.menu ul {
+  padding-left: 0;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #1CB5DA;
+}
+
+.menu a:link {
+  text-decoration: none;
+  color: #1CB5DA;
+}
+
+.menu ul li {
+  list-style-type: none;
+  line-height: 2;
+  font-size: 1.2rem;
 }
 
 /* Noticias*/

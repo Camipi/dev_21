@@ -14,7 +14,7 @@
 			<div class="container">
 				<div class="col-md-12">
 					<h1><strong>Bienvenido a<br> Dev_21</strong></h1>
-					<h2>Somos servicios integrales orientados  <br> a nuestros clientes.<br></h2>
+					<h2>Somos servicios integrales orientados a nuestros  <br> clientes.<br></h2>
 					<p><a class="circulo"><i class="far fa-arrow-alt-circle-down"></i></a></p>
 				</div>
 			</div>
