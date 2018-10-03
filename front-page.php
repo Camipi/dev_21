@@ -100,15 +100,15 @@
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
-					<img class="img-fluid" src="<?php echo get_bloginfo('template_url') ?>/assets/images/yagan-2.png" alt="placeholder de imagen">
+					<a href="<?php echo get_bloginfo('template_url') ?>/assets/images/yagan-2.png"" data-fancybox="gallery" data-caption="Caption #1"><img class="img-fluid" src="<?php echo get_bloginfo('template_url') ?>/assets/images/yagan-2.png" alt="placeholder de imagen"></a>
 				</div>
 
 				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-					<img class="img-fluid" src="<?php echo get_bloginfo('template_url') ?>/assets/images/yagan-5.png" alt="placeholder de imagen">
+					<a href="<?php echo get_bloginfo('template_url') ?>/assets/images/yagan-5.png" data-fancybox="gallery" data-caption="Caption #1"><img class="img-fluid" src="<?php echo get_bloginfo('template_url') ?>/assets/images/yagan-5.png" alt="placeholder de imagen"></a>
 				</div>
 
 				<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
-					<img class="img-fluid" src="<?php echo get_bloginfo('template_url') ?>/assets/images/yagan-4.png" alt="placeholder de imagen">
+					<a href="<?php echo get_bloginfo('template_url') ?>/assets/images/yagan-4.png" data-fancybox="gallery" data-caption="Caption #1"><img class="img-fluid" src="<?php echo get_bloginfo('template_url') ?>/assets/images/yagan-4.png" alt="placeholder de imagen"></a>
 				</div>
 			</div>
 		</div>
@@ -189,15 +189,18 @@
 </script>
 
 <script>
+
+let map;
+let markers = [];
 // Initialize and add the map
 function initMap() {
-  // The location of Uluru
-  var uluru = {lat: -25.344, lng: 131.036};
+	// The location of Uluru
+	var uluru = {lat: -33.433509, lng: -70.659983};
   // The map, centered at Uluru
-  var map = new google.maps.Map(
-      document.getElementById('map'), {zoom: 8, center: uluru});
+  map = new google.maps.Map(
+      document.getElementById('map'), {zoom: 12, center: uluru});
   // The marker, positioned at Uluru
-  var marker = new google.maps.Marker({position: uluru, map: map});
+  // var marker = new google.maps.Marker({position: uluru, map: map});
 }
 </script>
 

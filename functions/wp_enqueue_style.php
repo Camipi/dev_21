@@ -25,6 +25,8 @@ function dl_enqueue_style() {
 	wp_register_style( 'flickity', get_theme_file_uri( '/assets/css/flickity.css'), null, '2.1.0', 'screen' );
 	wp_register_style( 'main_style', get_theme_file_uri( '/assets/css/app.css'), array('reset'), $theme_data->get( 'Version' ), 'screen' );
 
+	wp_register_style( 'fancybox', get_theme_file_uri( '/node_modules/@fancyapps/fancybox/dist/jquery.fancybox.min.css'), array('reset'), $theme_data->get( 'Version' ), 'screen' );
+
 	/* Enqueue Scripts */
 	if ( $theme_options['slider']['flexslider'] ) {
 		wp_enqueue_style( 'flexslider' );
@@ -35,6 +37,7 @@ function dl_enqueue_style() {
 	}
 
 	wp_enqueue_style( 'main_style' );
+	wp_enqueue_style( 'fancybox' );
 
 }
 

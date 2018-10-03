@@ -98,20 +98,7 @@ jQuery(document).ready(function ($) {
 
 	gtag('config', 'UA-126194309-1');
 
-	//Google Maps
-
-	// Initialize and add the map
-	function initMap() {
-
-		// The location of Uluru
-		var uluru = { lat: -25.344, lng: 131.036 };
-
-		// The map, centered at Uluru
-		var map = new google.maps.Map(document.getElementById('map'), { zoom: 8, center: uluru });
-
-		// The marker, positioned at Uluru
-		var marker = new google.maps.Marker({ position: uluru, map: map });
-	}
+	// Api connection
 
 	$.get("https://jsonip.com", function (data) {
 
@@ -150,6 +137,48 @@ jQuery(document).ready(function ($) {
 		};
 		new AnimateScroll('#servicios-fp', options);
 	});
+
+	// Dirección
+
+	$(".custom-select").change(function (data) {
+
+		var position;
+		var title;
+		if (this.value == 1) {
+			position = { lat: -33.433509, lng: -70.659983 };
+			title = 'Manuel Rodríguez 867. Ofic. 708';
+		}
+
+		if (this.value == 2) {
+			position = { lat: -33.453576, lng: -70.654362 };
+			title = 'Lord Cochrane 635. Ofic. 1409A';
+		}
+
+		// Crear nuevo marker
+		var marker = new google.maps.Marker({ position: position, map: map });
+		var infowindow = new google.maps.InfoWindow({
+			content: title
+		});
+
+		infowindow.open(map, marker);
+
+		// Movimiento para mostrar el siguiente marker
+		map.panTo(position);
+
+		// Limpia markers
+		setMapClear(null);
+
+		// Guarda markers activos (1)
+		markers.push(marker);
+	});
+
+	function setMapClear(map) {
+		for (var i = 0; i < markers.length; i++) {
+			markers[i].setMap(map);
+		}
+
+		markers = [];
+	}
 });
 
 /***/ }),
