@@ -56,6 +56,20 @@ jQuery(document).ready( function($) {
 		new AnimateScroll('#servicios-fp', options);
 	});
 
+	$( ".circulo3" ).click(function() {
+		console.log("entra a onclick");
+
+		var options = {
+		    duration: 600,
+		    easing: 'easeInOutQuad',
+		    padding: 100,
+		    align: 'top',
+		    onFinish: function () {
+		    }
+		};
+		new AnimateScroll('#servicios-serv', options);
+	});
+
 
 	// Dirección
 

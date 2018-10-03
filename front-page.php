@@ -43,7 +43,7 @@
 
 	<!-- Servicios -->
 	<div id="servicios-fp" class="servicios-fp">
-		<h2>Servicios</h2>
+		<h2><a href="http://localhost:8888/servicios/">Servicios</a></h2>
 		<p class="serv-sub">Servicios que dan solución con valor</p>
 		<div class="container">
 			<div class="row">
@@ -95,7 +95,7 @@
 
 	<!-- Portafolio -->
 	<div id="portafolio-fp" class="portafolio-fp">
-		<h2>Portafolio</h2>
+		<h2><a href="http://localhost:8888/portafolio/">Portafolio</a></h2>
 		<p>Somos tu partner de Innovación y Tecnología, especialistas en el diseño de proyectos de desarrollo software a medida.</p>
 		<div class="container-fluid">
 			<div class="row">

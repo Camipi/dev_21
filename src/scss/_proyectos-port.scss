@@ -34,9 +34,11 @@
 }
 
 .logo-proyecto {
-	padding-top: 8vh;
-	padding-bottom: 8vh;
-	padding-left: 8vh;
+	position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
 }
 
 .portada-proyecto {

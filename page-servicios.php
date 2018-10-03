@@ -9,12 +9,12 @@
 	<section class="hero-serv">
 		<div class="container">
 			<h2><strong>Nuestros<br> Servicios</strong></h2>
-			<p><i class="far fa-arrow-alt-circle-down"></i></p>
+			<p><a class="circulo3"><i class="far fa-arrow-alt-circle-down"></i></a></p>
 		</div>
 	</section>
 
 	<!-- Servicios -->
-	<div class="servicios-serv">
+	<div class="servicios-serv" id="servicios-serv">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-3"></div>
