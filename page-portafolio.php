@@ -39,13 +39,7 @@
 					<p><a href="http://yagan.world"> yagan.world</a></p>
 				</div>
 			</div>
-			<div class="row">
-				<div class="col-md-12">
-					<img class="img-fluid logo-proyecto" src="<?php echo get_bloginfo('template_url') ?>/assets/images/yagan.png" alt="icono de servicio">
-				</div>
-			</div>
 			
-
 			<div class="gal-img-2">
 				<div class="row">
 					<div class="col-md-3">
