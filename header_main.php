@@ -28,19 +28,19 @@
 			<div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
 			    <ul class="nav">
 					<li class="nav-item">
-					    <a class="nav-link active go-section1">Dev21</a>
+					    <a class="nav-link active" href="http://localhost:8888/#dev21">Dev21</a>
 					</li>
 					<li class="nav-item">
-					    <a class="nav-link go-section2">Servicios</a>
+					    <a class="nav-link" href="http://localhost:8888/servicios/">Servicios</a>
 					</li>
 					<li class="nav-item">
-					    <a class="nav-link go-section3">Portafolio</a>
+					    <a class="nav-link" href="http://localhost:8888/portafolio/">Portafolio</a>
 					</li>
 					<li class="nav-item">
 					    <a class="nav-link" href="http://localhost:8888/blog/">Blog</a>
 					</li>
 					<li class="nav-item">
-					    <a class="nav-link go-section4">Contacto</a>
+					    <a class="nav-link" href="http://localhost:8888/#contacto">Contacto</a>
 					</li>				  
 				</ul>
 			</div>

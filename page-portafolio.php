@@ -1,4 +1,4 @@
-<?php get_header() ?>
+<?php get_template_part(header_main) ?>
 	<!-- ?php the_post() ?>
 	
 	<?php the_post_thumbnail() ?>

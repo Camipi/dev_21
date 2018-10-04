@@ -112,7 +112,7 @@ jQuery(document).ready(function ($) {
 
 	// jQuery Plugin AnimateScroll
 
-	$(".circulo").click(function () {
+	$(".go-section1").click(function () {
 		console.log("entra a onclick");
 
 		var options = {
@@ -125,7 +125,7 @@ jQuery(document).ready(function ($) {
 		new AnimateScroll('#dev21', options);
 	});
 
-	$(".circulo2").click(function () {
+	$(".go-section2").click(function () {
 		console.log("entra a onclick");
 
 		var options = {
@@ -138,7 +138,33 @@ jQuery(document).ready(function ($) {
 		new AnimateScroll('#servicios-fp', options);
 	});
 
-	$(".circulo3").click(function () {
+	$(".go-section3").click(function () {
+		console.log("entra a onclick");
+
+		var options = {
+			duration: 600,
+			easing: 'easeInOutQuad',
+			padding: 30,
+			align: 'top',
+			onFinish: function onFinish() {}
+		};
+		new AnimateScroll('#portafolio-fp', options);
+	});
+
+	$(".go-section4").click(function () {
+		console.log("entra a onclick");
+
+		var options = {
+			duration: 600,
+			easing: 'easeInOutQuad',
+			padding: 30,
+			align: 'top',
+			onFinish: function onFinish() {}
+		};
+		new AnimateScroll('#contacto', options);
+	});
+
+	$(".go-section5").click(function () {
 		console.log("entra a onclick");
 
 		var options = {

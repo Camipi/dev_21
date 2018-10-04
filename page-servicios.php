@@ -1,4 +1,4 @@
-<?php get_header() ?>
+<?php get_template_part(header_main) ?>
 	<!-- <?php the_post() ?>
 	
 	<?php the_post_thumbnail() ?>
@@ -9,7 +9,7 @@
 	<section class="hero-serv">
 		<div class="container">
 			<h2><strong>Nuestros<br> Servicios</strong></h2>
-			<p><a class="circulo3"><i class="far fa-arrow-alt-circle-down"></i></a></p>
+			<p><a class="go-section5"><i class="far fa-arrow-alt-circle-down"></i></a></p>
 		</div>
 	</section>
 

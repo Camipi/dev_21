@@ -15,7 +15,7 @@
 				<div class="col-md-12">
 					<h1><strong>Bienvenido a<br> Dev_21</strong></h1>
 					<h2>Somos servicios integrales orientados a nuestros  <br> clientes.<br></h2>
-					<p><a class="circulo"><i class="far fa-arrow-alt-circle-down"></i></a></p>
+					<p><a class="go-section1"><i class="far fa-arrow-alt-circle-down"></i></a></p>
 				</div>
 			</div>
 		</div>
@@ -35,7 +35,7 @@
 			</div>
 			<div class="row">
 				<div class="col-md-12">
-					<p class="dev21-fp"><a class="circulo2"><i class="far fa-arrow-alt-circle-down"></i></a></p>
+					<p class="dev21-fp"><a class="go-section2"><i class="far fa-arrow-alt-circle-down"></i></a></p>
 				</div>
 			</div>
 		</div>
