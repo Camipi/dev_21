@@ -88,8 +88,6 @@ La empresa de soluciones tecnológicas llamada Dev_21 pide crear una página web
 
 ![Wireframe](assets/images/desktop.png?raw=true "Desktop")
 
-![Wireframe](assets/img/mobile.jpg?raw=true "Mobile")
-
 
 ## HTML/CSS ##
 
@@ -237,6 +235,10 @@ dev_21(carpeta raíz)
  * Importar la base de datos del proyecto (Ubicada en la carpeta raíz del proyecto)
  * Ir a http://localhost:8888/wp-myadmin
  * Iniciar sesión
+
+
+## Video demostrativo ##
+https://goo.gl/1ygDg7
 
 
 
